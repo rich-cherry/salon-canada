@@ -1,0 +1,2169 @@
+{
+  "current": {
+    "show_announcement_bar": true,
+    "show_popup": true,
+    "show_fixed_message": true,
+    "header_layout": "search_focus",
+    "footer_layout": "classic",
+    "product_layout": "1",
+    "image_loading_style": "fade-in",
+    "logo_mobile": "",
+    "mobile_logo_width": 200,
+    "logo_mobile_position": "center",
+    "logo_menu_position": "left",
+    "show_search_icon_mobile": true,
+    "show_locale_selector": true,
+    "show_currency_selector": true,
+    "mobile_sidebar_position": "below",
+    "mobile_menu_background_color": "rgba(0,0,0,0)",
+    "mobile_menu_opacity": 100,
+    "mobile_menu_link_color": "#a32668",
+    "mobile_menu_link_hover_color": "#85af92",
+    "button_primary_padding": "regular",
+    "button_primary_bg_color": "#000000",
+    "button_primary_bg_color_transparency": 100,
+    "button_primary_border_color": "rgba(0,0,0,0)",
+    "button_primary_text_color": "#ffffff",
+    "button_primary_bg_color--highlight": "#606060",
+    "button_primary_bg_color_transparency--highlight": 100,
+    "button_primary_border_color--highlight": "rgba(0,0,0,0)",
+    "button_primary_text_color--highlight": "#ffffff",
+    "button_primary_border_radius": 0,
+    "button_secondary_padding": "regular",
+    "button_secondary_bg_color": "rgba(0,0,0,0)",
+    "button_secondary_bg_color_transparency": 0,
+    "button_secondary_border_color": "#000000",
+    "button_secondary_text_color": "#000000",
+    "button_secondary_bg_color--highlight": "#000000",
+    "button_secondary_bg_color_transparency--highlight": 100,
+    "button_secondary_border_color--highlight": "#000000",
+    "button_secondary_text_color--highlight": "#ffffff",
+    "button_secondary_border_radius": 0,
+    "button_link_padding": "regular",
+    "button_link_text_color": "#000000",
+    "button_link_text_color--highlight": "#ccc",
+    "button_link_underline_style": "solid",
+    "button_link_underline_thickness": 1,
+    "button_cart_padding": "regular",
+    "button_cart_bg_color": "#000000",
+    "button_cart_bg_color--highlight": "#606060",
+    "button_cart_border_color": "rgba(0,0,0,0)",
+    "button_cart_border_color--highlight": "rgba(0,0,0,0)",
+    "button_cart_text_color": "#fff",
+    "button_cart_text_color--highlight": "#fff",
+    "button_cart_icon": "",
+    "button_cart_icon_position": "left",
+    "button_cart_border_radius": 2,
+    "icon": "icon_outline",
+    "toggle_icon_style": "plus_and_minus",
+    "social_media_share_style": "squared",
+    "breadcrumb_capitalization": "none",
+    "breadcrumb_separator": "arrow",
+    "breadcrumb_size": "regular",
+    "dropdown_style": "vertical",
+    "dropdown_position": "below-parent",
+    "dropdown_link_spacing": "medium",
+    "use_placeholders": false,
+    "form_button_style": "button--primary",
+    "display_heading_divider": true,
+    "heading_divider_animation": "none",
+    "heading_divider_style": "short",
+    "heading_divider_width": 2,
+    "toggle_sidebar": false,
+    "tab_style": "regular",
+    "table_styles_enabled": true,
+    "qty_box_style": "box",
+    "qty_border_radius": 0,
+    "tag_style": "solid",
+    "mega_menu_1": true,
+    "mega_menu_2": false,
+    "mega_menu_3": false,
+    "mega_menu_4": false,
+    "mega_menu_5": false,
+    "mega_menu_6": false,
+    "mega_menu_7": false,
+    "mega_menu_8": false,
+    "mega_menu_9": false,
+    "mega_menu_10": false,
+    "shop_bg_color": "#ffffff",
+    "border_color": "#d3d3d3",
+    "regular_color": "#222222",
+    "link_color": "#222222",
+    "link_hover_color": "#555555",
+    "heading_color": "#000000",
+    "banner_heading_color": "#ffffff",
+    "divider_color": "#a32668",
+    "logo_text": "#ffffff",
+    "header_background": "#ffffff",
+    "header_link_color": "#a32668",
+    "header_link_hover_color": "#85af92",
+    "header_cart_badge_color": "#ae3333",
+    "cart_background_color": "#fff",
+    "show_dropdown_shadow": true,
+    "dropdown_background": "#ffffff",
+    "dropdown_background_opacity": 100,
+    "dropdown_link_color": "#a32668",
+    "dropdown_link_hover_color": "#85af92",
+    "footer_background": "#ffffff",
+    "footer_border": "#a32668",
+    "footer_link_color": "#a32668",
+    "footer_link_hover_color": "#bac0e6",
+    "footer_text_color": "#000000",
+    "sale_color": "#ae3333",
+    "was_price_color": "#b3b3b3",
+    "product_hover_text_color": "#85af92",
+    "product_hover_bg_color": "#ffffff",
+    "banner_bestseller": "#a32668",
+    "banner_comingsoon": "#244866",
+    "banner_new": "#f7e8b8",
+    "banner_preorder": "#222222",
+    "banner_sale": "#f7e8b8",
+    "banner_staffpick": "#85af92",
+    "qty_icon_color": "#ffffff",
+    "qty_icon_hover_color": "#ffffff",
+    "qty_background_color": "#a32668",
+    "qty_background_hover_color": "#85af92",
+    "regular__font": "mundo_sans_n4",
+    "regular_font_size": 15,
+    "logo__font": "mundo_sans_n4",
+    "logo_font_size": 20,
+    "logo_font_style": "none",
+    "nav__font": "mundo_sans_n4",
+    "nav_font_size": 15,
+    "nav_letter_spacing": 0,
+    "nav_font_style": "none",
+    "dropdown_heading_font_size": 16,
+    "dropdown_font_size": 14,
+    "dropdown_letter_spacing": 0,
+    "dropdown_font_style": "none",
+    "button__font": "open_sans_n4",
+    "button_letter_spacing": 0,
+    "button_font_style": "none",
+    "heading__font": "mundo_sans_n5",
+    "heading_size": 28,
+    "heading_letter_spacing": 0,
+    "heading_font_style": "none",
+    "preheading_font": "mundo_sans_n4",
+    "preheading_size": 15,
+    "preheading_style": "none",
+    "subheading_font": "mundo_sans_n4",
+    "subheading_size": 15,
+    "subheading_style": "none",
+    "banner_heading__font": "mundo_sans_n5",
+    "banner_heading_size": 48,
+    "banner_heading_style": "none",
+    "banner_text__font": "mundo_sans_n4",
+    "banner_text_size": 20,
+    "banner_text_letter_spacing": 1,
+    "footer_heading_font_size": 18,
+    "footer_font_size": 14,
+    "search_option": "product,page,article",
+    "search_title": "Search",
+    "search_placeholder": "What are you looking for?",
+    "search_heading_color": "#000000",
+    "search_display_style": "popup",
+    "search_popup_bg": "#ffffff",
+    "search_menu": "",
+    "enable_autocomplete": true,
+    "search_to_display": 5,
+    "show_secondary_image": true,
+    "display_vendor": false,
+    "thumbnail_hover_enabled": true,
+    "thumbnail_text_alignment": "center",
+    "stickers_enabled": true,
+    "sticker_shape": "square",
+    "sticker_position": "left",
+    "collection_swatches": false,
+    "collection_swatches_shape": "square",
+    "enable_shopify_review_comments": true,
+    "enable_shopify_collection_badges": false,
+    "display_product_quantity": true,
+    "limit_quantity": true,
+    "display_inventory_left": true,
+    "inventory_threshold": 10,
+    "free_price_text": "Free",
+    "product_form_style": "dropdown",
+    "swatch_style": "square",
+    "notify_me_form": true,
+    "notify_me_description": "<p>Notify me when this product is available:<\/p>",
+    "size_chart": "",
+    "enable_quickshop": true,
+    "quickshop_button_style": "secondary",
+    "quickshop_show_vendor": false,
+    "quickshop_show_price_savings": true,
+    "show_dynamic_checkout_button": false,
+    "quickshop_truncate_words": true,
+    "quickshop_truncate_words_limit": 40,
+    "qs_popup_color": "#ffffff",
+    "show_product_gallery_thumbnails": true,
+    "quickshop_arrows": true,
+    "quickshop_magnify_images": false,
+    "quickshop_speed": 0,
+    "quickshop_gallery_transition_styles": "slide",
+    "quickshop_thumbnail_position": "bottom-thumbnails",
+    "enable_thumbnail_slider": true,
+    "quickshop_gallery_position": "left",
+    "video_looping": false,
+    "cart_action": "mini_cart",
+    "show_lock_icon": true,
+    "cart_icon": "bag",
+    "display_special_instructions": false,
+    "display_tos_checkbox": false,
+    "tos_page": "",
+    "display_savings": false,
+    "display_ajax_quantity_box": false,
+    "cart_message": "",
+    "go_to_checkout": true,
+    "enable_shipping_calculator": false,
+    "shipping_calculator_default_country": "United States",
+    "currency_format": "money_with_currency_format",
+    "show_multiple_currencies": false,
+    "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+    "default_currency": "USD",
+    "disqus_enabled": false,
+    "disqus_shortname": "",
+    "twitter_link": "https:\/\/twitter.com\/shopify",
+    "facebook_link": "https:\/\/facebook.com\/shopify",
+    "youtube_link": "https:\/\/youtube.com\/user\/shopify",
+    "vimeo_link": "",
+    "pinterest_link": "",
+    "tumblr_link": "",
+    "instagram_link": "https:\/\/instagram.com\/shopify",
+    "snapchat_link": "",
+    "houzz_link": "https:\/\/www.houzz.com\/shopify",
+    "linkedin_link": "",
+    "dribbble_link": "",
+    "behance_link": "",
+    "flickr_link": "",
+    "email_link": "",
+    "favicon": "shopify:\/\/shop_images\/emporium__favicon-01.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/emporium__page--checkout-banner-01.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/emporium__logo-white.png",
+    "checkout_logo_position": "right",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#a32668",
+    "checkout_button_color": "#000000",
+    "checkout_error_color": "#e32c2b",
+    "icon_style": "icons",
+    "og_image_fallback": "shopify:\/\/shop_images\/emporium-social-share-image.jpg",
+    "show_labels": false,
+    "quikckshop_show_price_savings": true,
+    "logo_width": 200,
+    "field_input_style": "square",
+    "show_form_icons": false,
+    "form_size": "regular",
+    "form_border_style": "square",
+    "btn1_font_size": 16,
+    "btn1_border_radius": 0,
+    "btn1_block": false,
+    "btn1_bg_color": "#a32668",
+    "btn1_border_color": "rgba(0,0,0,0)",
+    "btn1_text_color": "#ffffff",
+    "btn1_bg_color--highlight": "#85af92",
+    "btn1_border_color--highlight": "rgba(0,0,0,0)",
+    "btn1_text_color--highlight": "#ffffff",
+    "btn2_font_size": 16,
+    "btn2_border_radius": 0,
+    "btn2_block": false,
+    "btn2_bg_color": "rgba(0,0,0,0)",
+    "btn2_border_color": "#000000",
+    "btn2_text_color": "#000000",
+    "btn2_bg_color--highlight": "#000000",
+    "btn2_border_color--highlight": "#000000",
+    "btn2_text_color--highlight": "#ffffff",
+    "btn3_font_size": 12,
+    "btn3_border_radius": 2,
+    "btn3_bg_color": "#000000",
+    "btn3_bg_color_transparency": 100,
+    "btn3_bg_color--highlight": "#ffffff",
+    "btn3_bg_color_transparency--highlight": 100,
+    "btn3_border_color": "#000000",
+    "btn3_border_color--highlight": "#000000",
+    "btn3_text_color": "#ffffff",
+    "btn3_text_color--highlight": "#000000",
+    "btn3_icon": "",
+    "btn3_icon_position": "left",
+    "btn3_animation": "checkmark",
+    "text_alignment": "center",
+    "collection_layout": "classic",
+    "blog_layout": "1",
+    "article_layout": "1",
+    "banner_bestseller_text": "#ffffff",
+    "banner_comingsoon_text": "#ffffff",
+    "banner_new_text": "#000000",
+    "banner_preorder_text": "#ffffff",
+    "banner_sale_text": "#000000",
+    "banner_staffpick_text": "#ffffff",
+    "sale_banner_enabled": true,
+    "banner_shape": "square",
+    "sale_banner_position": "bottom-right",
+    "sections": {
+      "search__main": {
+        "type": "search__main",
+        "settings": {
+          "search_breadcrumb": true,
+          "text": "<p>Find what you seek.<\/p>",
+          "products_per_row": 3,
+          "mobile_products_per_row": "2",
+          "pagination_limit": 48,
+          "pagination_type": "basic_pagination",
+          "align_height": false,
+          "collection_height": 200,
+          "blog_author": false,
+          "blog_date": true,
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "password__main": {
+        "type": "password__main",
+        "settings": {
+          "custom_logo": "shopify:\/\/shop_images\/emporium__logo-raspberry.png",
+          "password-page-background": "shopify:\/\/shop_images\/emporium__page--password-01.jpg",
+          "pagework_page_bg_stretched": true,
+          "copyright_text": "",
+          "display_designed_by": true,
+          "display_shopify": true,
+          "social_media": true,
+          "password_page_background_color": "#ffffff",
+          "password_page_text_color": "#000000",
+          "newsletter_title": "Subscribe",
+          "newsletter_richtext": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
+          "show_signup_form": true,
+          "display_first_name": false,
+          "display_last_name": false,
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "collection__banner": {
+        "type": "collection__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "subtitle": "Subheading",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "collection__main": {
+        "type": "collection__main",
+        "settings": {
+          "collection_breadcrumb": true,
+          "collection_tags": true,
+          "collection_sort": true,
+          "show_promo_banner": false,
+          "image": "",
+          "image_darken": false,
+          "promo_title": "Special sale on now!",
+          "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+          "banner_height": "medium",
+          "align_height": false,
+          "collection_height": 200,
+          "products_per_row": 3,
+          "mobile_products_per_row": "2",
+          "pagination_limit": 21,
+          "pagination_type": "infinite_scroll",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "collection__sidebar": {
+        "type": "collection__sidebar",
+        "blocks": {
+          "1569352712816": {
+            "type": "tag_filter",
+            "settings": {
+              "title": "Filter by Department",
+              "filter_tags": "Accessories, Bags, Ceramics, Garden, Home Decor, Lifestyle",
+              "enable_filter_swatches": false
+            }
+          },
+          "1569352424004": {
+            "type": "tag_filter",
+            "settings": {
+              "title": "Filter by Type",
+              "filter_tags": "Beauty, Blanket, Candles, Chocolate, Cosmetics, Incense, Print, Tea,",
+              "enable_filter_swatches": false
+            }
+          }
+        },
+        "block_order": [
+          "1569352712816",
+          "1569352424004"
+        ],
+        "settings": {
+          "show_sidebar": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1557099063267": {
+        "type": "index__image-with-text",
+        "blocks": {
+          "1557099063267-2": {
+            "type": "text",
+            "settings": {
+              "title": "How We Source Products",
+              "heading_size": "regular",
+              "text": "<p>We spend our time carefully seeking and developing products that fit a few simple criteria, they need to be durable, quality made with a simplistic, sustainable and ethical approach.<\/p>",
+              "button_label": "",
+              "button_style": "button--primary",
+              "background": "#ffffff",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "vertical_position": "center"
+            }
+          },
+          "1557099063267-0": {
+            "type": "image",
+            "settings": {
+              "image_crop": "center"
+            }
+          },
+          "1557377497006": {
+            "type": "text",
+            "settings": {
+              "title": "Curated and Handmade",
+              "heading_size": "regular",
+              "text": "<p>We also specifically curate handmade items fabricated with care. Small run, handmade, artisan and vintage products offer a beauty that is tactile and to be celebrated. Shop our unique handmade products <a href=\"\/collections\/handmade\" title=\"Handmade\">here.<\/a><\/p>",
+              "button_label": "",
+              "link": "shopify:\/\/collections\/handmade",
+              "button_style": "button--primary",
+              "background": "rgba(0,0,0,0)",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "vertical_position": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1557099063267-2",
+          "1557099063267-0",
+          "1557377497006"
+        ],
+        "settings": {
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 0,
+          "padding_bottom": 80,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1557099078699": {
+        "type": "index__featured-product",
+        "settings": {
+          "featured_product": "driftwood-oak-handwoven-blanket",
+          "display_thumbnails": true,
+          "gallery_arrows": false,
+          "enable_zoom": true,
+          "enable_product_lightbox": true,
+          "slideshow_speed": 4,
+          "slideshow_transition": "slide",
+          "thumbnail_position": "bottom-thumbnails",
+          "enable_thumbnail_slider": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "enable_shopify_product_badges": true,
+          "display_savings": true,
+          "show_description": true,
+          "custom_description": "",
+          "product_description_position": "top",
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": true,
+          "show_payment_button": false,
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "width": "standard",
+          "padding_top": 80,
+          "padding_bottom": 80,
+          "animation": "fadeIn",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1557099098656": {
+        "type": "index__featured-promotions",
+        "blocks": {
+          "1557367121192": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/collections\/editors-picks",
+              "overlay_background": "rgba(0,0,0,0)",
+              "overlay_background_opacity": 50,
+              "overlay_text": "rgba(0,0,0,0)",
+              "icon_label": "calendar",
+              "title": "Our Seasonal Picks",
+              "text": "<p>Our team&#x27;s loved products from this season.<\/p>"
+            }
+          },
+          "1557099098656-3": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/collections\/gifts",
+              "overlay_background": "rgba(0,0,0,0)",
+              "overlay_background_opacity": 50,
+              "overlay_text": "rgba(0,0,0,0)",
+              "icon_label": "gift",
+              "title": "Gifts for Everyone",
+              "text": "<p>A curated collection of products for any homeowner.<\/p>"
+            }
+          },
+          "1557099098656-1": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/collections\/accessories",
+              "overlay_background": "rgba(0,0,0,0)",
+              "overlay_background_opacity": 50,
+              "overlay_text": "rgba(0,0,0,0)",
+              "icon_label": "hanger",
+              "title": "We Love Accessories",
+              "text": "<p>Shop our favourite bags, scarves and leather goods.<\/p>"
+            }
+          },
+          "1557099098656-2": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/collections\/garden",
+              "overlay_background": "rgba(0,0,0,0)",
+              "overlay_background_opacity": 50,
+              "overlay_text": "rgba(0,0,0,0)",
+              "icon_label": "leaf-2",
+              "title": "Gardening Season is Here",
+              "text": "<p>We have everything you need to plant your garden vision.<\/p>"
+            }
+          },
+          "1557099098656-0": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/collections\/all",
+              "overlay_background": "rgba(0,0,0,0)",
+              "overlay_background_opacity": 50,
+              "overlay_text": "rgba(0,0,0,0)",
+              "icon_label": "house",
+              "title": "In the Mood to Browse?",
+              "text": "<p>Take a look at our entire collection.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1557367121192",
+          "1557099098656-3",
+          "1557099098656-1",
+          "1557099098656-2",
+          "1557099098656-0"
+        ],
+        "settings": {
+          "border_radius": 0,
+          "crop_images": true,
+          "overlay_background": "#000000",
+          "overlay_background_opacity": 40,
+          "overlay_text": "#ffffff",
+          "show_border": true,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "icon_label": "truck",
+          "text": "<p>Thanks for supporting local! Our online shop is open &amp; shipping orders. <\/p>",
+          "alignment": "center",
+          "size": "regular",
+          "button_label": "",
+          "button_style": "button--primary",
+          "background": "#244866",
+          "text_color": "#ffffff",
+          "width": "wide",
+          "homepage_only": true,
+          "enable_sticky": false,
+          "show_close_icon": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-classic": {
+        "type": "footer-classic",
+        "blocks": {
+          "footer-classic-0": {
+            "type": "logo",
+            "settings": {
+              "size": "small",
+              "text": "<p>This is a demo shop for the<strong> <\/strong><a href=\"https:\/\/outofthesandbox.com\/products\/flex-theme\" title=\"https:\/\/outofthesandbox.com\/products\/flex-theme\"><strong>Flex Shopify Theme<\/strong><\/a> by Out of the Sandbox. Products are courtesy of <a href=\"https:\/\/thefuturekept.com\/\">The Future Kept.<\/a><\/p>",
+              "social_icons_footer": true
+            }
+          },
+          "footer-classic-1": {
+            "type": "link_list",
+            "settings": {
+              "menu": "",
+              "social_icons_footer": false
+            }
+          },
+          "1558090334924": {
+            "type": "text",
+            "settings": {
+              "title": "Our Vision",
+              "content": "<p>Emporium continues to be a meeting point between sustainability and selection. We are dedicated to providing you with a large selection of curated items that prove their worth. <\/p>",
+              "social_icons_footer": false
+            }
+          },
+          "footer-classic-2": {
+            "type": "text",
+            "settings": {
+              "title": "Did you know?",
+              "content": "<p>We offer free interior design consultations. Feel free to contact us with any questions you may have about our products and how they fit into your space!<\/p>",
+              "social_icons_footer": false
+            }
+          }
+        },
+        "block_order": [
+          "footer-classic-0",
+          "footer-classic-1",
+          "1558090334924",
+          "footer-classic-2"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": true,
+          "display_shopify": true,
+          "display_payment_methods": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer__icon-bar": {
+        "type": "footer__icon-bar",
+        "blocks": {
+          "footer__icon-bar-0": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "Descriptive text"
+            }
+          },
+          "footer__icon-bar-1": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "Descriptive text"
+            }
+          },
+          "footer__icon-bar-2": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "Descriptive text"
+            }
+          },
+          "footer__icon-bar-3": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "Descriptive text"
+            }
+          }
+        },
+        "block_order": [
+          "footer__icon-bar-0",
+          "footer__icon-bar-1",
+          "footer__icon-bar-2",
+          "footer__icon-bar-3"
+        ],
+        "settings": {
+          "show_icon_bar": false,
+          "alignment": "center",
+          "icon_position": "row",
+          "size": "medium",
+          "background": "#8b8b8b",
+          "link_color": "#ffffff",
+          "link_hover_color": "#000000",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-classic": {
+        "type": "header-classic",
+        "settings": {
+          "logo": "",
+          "logo_width": 200,
+          "main_linklist": "main-menu",
+          "menu_alignment": "start",
+          "dropdown_click": false,
+          "display_search": true,
+          "icon_style": "icons",
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_logo": "",
+          "overlay_logo_width": 80,
+          "enable_sticky": false,
+          "sticky_background_opacity": 50,
+          "scroll_logo_width": 80,
+          "width": "standard",
+          "vertical_alignment": "center",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header__top-bar": {
+        "type": "header__top-bar",
+        "blocks": {
+          "header__top-bar-0": {
+            "type": "text",
+            "settings": {
+              "text": "123 Main Street, Pleasantville USA"
+            }
+          },
+          "header__top-bar-1": {
+            "type": "social_media",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "header__top-bar-0",
+          "header__top-bar-1"
+        ],
+        "settings": {
+          "show_top_bar": false,
+          "font": "mundo_sans_n5",
+          "font_style": "none",
+          "font_size": 14,
+          "letter_spacing": 0,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "background": "rgba(0,0,0,0)",
+          "link_color": "rgba(0,0,0,0)",
+          "link_hover_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "width": "wide",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "mega-menu-1-4": {
+            "type": "image",
+            "settings": {
+              "image_link": "shopify:\/\/collections\/ceramics",
+              "image_caption": "<p><strong>New Ceramics!<\/strong><\/p>"
+            }
+          },
+          "1557941605052": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "mega-menu-1-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "1557941896278": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "1557941905666": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "mega-menu-1-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "cedar-magazine-issue-1",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-1-4",
+          "1557941605052",
+          "mega-menu-1-0",
+          "1557941896278",
+          "1557941905666",
+          "mega-menu-1-5"
+        ],
+        "settings": {
+          "parent_link": "Shop",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "calendar",
+          "mega_bottom_bar_text": "Shop our Editor's Picks for the Season here!",
+          "mega_bottom_bar_link": "shopify:\/\/collections\/editors-picks",
+          "size": "regular",
+          "bottom_banner_bg": "#85af92",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-search-focus": {
+        "type": "header-search-focus",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo-placeholder.png",
+          "logo_width": 205,
+          "search_background": "#a32668",
+          "search_icon": "#ffffff",
+          "icon_style": "icons_text",
+          "main_linklist": "main-menu",
+          "menu_alignment": "center",
+          "dropdown_click": false,
+          "enable_sticky": false,
+          "sticky_background_opacity": 100,
+          "scroll_logo_width": 200,
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-centered": {
+        "type": "footer-centered",
+        "blocks": {
+          "footer-centered-0": {
+            "type": "logo",
+            "settings": {
+              "logo": "",
+              "size": "small"
+            }
+          },
+          "footer-centered-1": {
+            "type": "link_list",
+            "settings": {
+              "menu": "mega-menu"
+            }
+          },
+          "footer-centered-2": {
+            "type": "text",
+            "settings": {
+              "title": "Our Vision",
+              "content": "<p>Emporium continues to be a meeting point between sustainability and selection, showcasing thoughtfully curated products for your home.&nbsp;We dedicate ourselves to providing you with a large selection of carefully curated items that prove their worth and hold a purpose.<\/p>\n<p><\/p>"
+            }
+          },
+          "footer-centered-3": {
+            "type": "social",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "footer-centered-0",
+          "footer-centered-1",
+          "footer-centered-2",
+          "footer-centered-3"
+        ],
+        "settings": {
+          "copyright_text": "",
+          "display_designed_by": true,
+          "display_shopify": true,
+          "display_payment_methods": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1557374553002": {
+        "type": "index__featured-collection",
+        "settings": {
+          "title": "Gifts",
+          "collection": "gifts",
+          "products_per": 7,
+          "mobile_products_per_row": "1",
+          "products_limit": 15,
+          "align_height": false,
+          "collection_height": 150,
+          "collection_style": "slider",
+          "width": "wide",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__sidebar": {
+        "type": "product__sidebar",
+        "settings": {
+          "show_sidebar": true,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__main": {
+        "type": "product__main",
+        "blocks": {
+          "1557842500495": {
+            "type": "product_reviews",
+            "settings": {
+              "padding_top": 0,
+              "padding_bottom": 0,
+              "animation": "none"
+            }
+          },
+          "1557842474414": {
+            "type": "rich_text",
+            "settings": {
+              "title": "How We Give Back",
+              "heading_font": "open_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "text": "<p>We believe in giving back; We are proud to give 1% of all orders directly to environmental not for profit groups whose focus is the protection, preservation and restoration of our planet. This means every time you purchase from us, 1% goes directly to an environmental cause.<\/p>",
+              "text_font": "open_sans_n4",
+              "text_color": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "text_size": 14,
+              "columns": 1,
+              "button_label": "Read more",
+              "button_link": "shopify:\/\/pages\/our-story",
+              "button_alignment": "center",
+              "button_style": "button--1",
+              "background": "#eeeeee",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 0,
+              "width": "standard",
+              "padding_top": 0,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          }
+        },
+        "block_order": [
+          "1557842500495",
+          "1557842474414"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "display_thumbnails": true,
+          "gallery_arrows": true,
+          "enable_zoom": true,
+          "enable_product_lightbox": true,
+          "slideshow_speed": 3,
+          "slideshow_transition": "slide",
+          "thumbnail_position": "bottom-thumbnails",
+          "enable_thumbnail_slider": true,
+          "display_vendor": false,
+          "display_sku": false,
+          "enable_shopify_product_badges": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": true,
+          "product_description_position": "top",
+          "show_payment_button": true,
+          "product_images_position": "left",
+          "set_product_height": false,
+          "product_height": 500,
+          "video_looping": false,
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "ec01fd2dafe8": {
+        "type": "index__featured-collection",
+        "settings": {
+          "title": "Everything for the garden",
+          "collection": "garden",
+          "products_per": 7,
+          "mobile_products_per_row": "1",
+          "products_limit": 15,
+          "align_height": false,
+          "collection_height": 200,
+          "collection_style": "slider",
+          "width": "wide",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "a06d72dd0a4c": {
+        "type": "index__featured-collection",
+        "settings": {
+          "title": "100% Handmade with care",
+          "collection": "handmade",
+          "products_per": 7,
+          "mobile_products_per_row": "1",
+          "products_limit": 15,
+          "align_height": false,
+          "collection_height": 200,
+          "collection_style": "slider",
+          "width": "wide",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "dce2651bd52b": {
+        "type": "index__featured-collection",
+        "settings": {
+          "title": "Get comfy with one of our throws",
+          "collection": "throws",
+          "products_per": 7,
+          "mobile_products_per_row": "1",
+          "products_limit": 15,
+          "align_height": false,
+          "collection_height": 200,
+          "collection_style": "slider",
+          "width": "wide",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1558705425774": {
+        "type": "index__image-with-text-overlay",
+        "settings": {
+          "link": "shopify:\/\/collections\/lifestyle",
+          "pretext": "",
+          "title": "Lifestyle",
+          "subtitle": "<p>Find products that suit your every day<\/p>",
+          "pretext_color": "#000000",
+          "heading_color": "#000000",
+          "subheading_color": "#000000",
+          "text_alignment": "center",
+          "text_horizontal_position": "center",
+          "text_vertical_position": "middle",
+          "background_color": "#ffffff",
+          "background_opacity": 77,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 100,
+          "button_1": "",
+          "button_1_style": "button--secondary",
+          "button_2": "",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "width": "half",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "fadeIn",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1558705605295": {
+        "type": "index__image-with-text-overlay",
+        "settings": {
+          "link": "shopify:\/\/collections\/home-decor",
+          "pretext": "",
+          "title": "Home Decor",
+          "subtitle": "<p>There&#x27;s always room for one last finishing touch<\/p>",
+          "pretext_color": "#000000",
+          "heading_color": "#000000",
+          "subheading_color": "#000000",
+          "text_alignment": "center",
+          "text_horizontal_position": "center",
+          "text_vertical_position": "middle",
+          "background_color": "#ffffff",
+          "background_opacity": 77,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 100,
+          "button_1": "",
+          "button_1_style": "button--secondary",
+          "button_2": "",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": true,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "width": "half",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "fadeIn",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_close_icon": true,
+          "show_popup_on_mobile": true,
+          "display_border": true,
+          "border_color": "#ffffff",
+          "border_width": 3,
+          "newsletter_title": "Stay in the know",
+          "newsletter_text": "<p>Are you a home décor expert? A sustainable do-it-yourselfer? A great gift giver? We&#x27;ve got you covered. Subscribe now for insider access and ideas that spark imagination.<\/p>",
+          "newsletter_section_text_align": "left",
+          "text_color": "#ffffff",
+          "background_color": "#a32668",
+          "show_signup_form": true,
+          "display_first_name": false,
+          "display_last_name": false,
+          "image_cropping": "center",
+          "image_position": "left",
+          "overlay_color": "#000000",
+          "overlay_background_opacity": 80,
+          "popup_delay": 2,
+          "popup_days_to_hide": "30",
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "fixed-message": {
+        "type": "fixed-message",
+        "settings": {
+          "text": "<p>We use cookies on our website to give you the best shopping experience. By using this site, you agree to its use of cookies. <\/p>",
+          "button_label": "I agree",
+          "button_style": "button--secondary",
+          "background": "#a32668",
+          "background_opacity": 90,
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "404__banner": {
+        "type": "404__banner",
+        "settings": {
+          "show_banner": true,
+          "image": "shopify:\/\/shop_images\/emporium__page--404-banner-01.jpg",
+          "image_darken": true,
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "404__main": {
+        "type": "404__main",
+        "settings": {
+          "not_found_text": "<p>We're sorry, but the page you requested could not be found.<\/p><p>Try searching or <a href='\/collections\/all'>continue shopping<\/a>.<\/p>",
+          "display_search_field": true,
+          "width": "standard",
+          "padding_top": 60,
+          "padding_bottom": 20,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "cart__banner": {
+        "type": "cart__banner",
+        "settings": {
+          "show_banner": true,
+          "image": "shopify:\/\/shop_images\/emporium__page--cart-banner-01.jpg",
+          "image_darken": true,
+          "subtitle": "",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "cart__main": {
+        "type": "cart__main",
+        "settings": {
+          "display_product_quantity_cart": true,
+          "display_savings": true,
+          "cart_message": "",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1562875542813": {
+        "type": "index__newsletter",
+        "settings": {
+          "display_first_name": false,
+          "display_last_name": false,
+          "newsletter_title": "Get on the list",
+          "newsletter_richtext": "<p>Gain access to exclusive offers and be the first to know about new arrivals.<\/p>",
+          "newsletter_section_text_align": "center",
+          "background_color": "#85af92",
+          "text_color": "#ffffff",
+          "image_darken": false,
+          "image_cropping": "none",
+          "image_position": "right",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-details__main": {
+        "type": "page-details__main",
+        "blocks": {
+          "page-details__main-0": {
+            "type": "image_with_overlay",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/emporium__page--our-story-iwto-01.jpg",
+              "link": "",
+              "pretext": "",
+              "title": "Our Story",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#ffffff",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "left",
+              "text_vertical_position": "middle",
+              "background_color": "#a32668",
+              "background_opacity": 70,
+              "border_color": "#a32668",
+              "border_width": 2,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": false,
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "#ffffff",
+              "subheading_color_mobile": "rgba(0,0,0,0)",
+              "width": "wide",
+              "padding_top": 0,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1595012100771": {
+            "type": "divider",
+            "settings": {
+              "divider_style": "short",
+              "divider_width": 2,
+              "divider_color": "rgba(0,0,0,0)",
+              "alignment": "center",
+              "width": "standard",
+              "padding_top": 55,
+              "padding_bottom": 58,
+              "animation": "none"
+            }
+          },
+          "page-details__main-2": {
+            "type": "rich_text",
+            "settings": {
+              "title": "Who we are and what we stand for",
+              "heading_font": "open_sans_n6",
+              "heading_color": "#a32668",
+              "heading_alignment": "right",
+              "heading_size": 30,
+              "text": "<p>Emporium was built off the idea that items should be loved and used in a sustainable way. Our journey began in 2006 and we have not stopped curating products since! We pride ourselves on selecting and stocking products that are beautiful but also serve purpose.<\/p>\n<p><\/p>\n<p>By handpicking all of our products in-house, our team has increased and expanded our selection of organic, handcrafted, sustainably sourced products. There's a story behind everything we sell - from the artisan who crafts it to the individual who uses it!&nbsp;<\/p>",
+              "text_font": "open_sans_n4",
+              "text_color": "rgba(0,0,0,0)",
+              "text_alignment": "right",
+              "text_size": 16,
+              "columns": 1,
+              "button_label": "",
+              "button_link": "",
+              "button_alignment": "center",
+              "button_style": "button--1",
+              "background": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 180,
+              "width": "half",
+              "padding_top": 20,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1563766834792": {
+            "type": "image_with_overlay",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/emporium__page--our-story-iwto-02.jpg",
+              "link": "",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#000000",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "center",
+              "text_vertical_position": "middle",
+              "background_color": "#ffffff",
+              "background_opacity": 0,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--primary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "mobile_text_below_image": true,
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)",
+              "width": "half",
+              "padding_top": 0,
+              "padding_bottom": 25,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1594658913759": {
+            "type": "map",
+            "settings": {
+              "map_address": "seattle",
+              "map_height": 400,
+              "zoom_level": 14,
+              "map_image": "",
+              "api_key": "",
+              "show_pin": true,
+              "map_style": "default",
+              "width": "half",
+              "padding_top": 20,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1594658971063": {
+            "type": "rich_text",
+            "settings": {
+              "title": "Interested in joining our team?",
+              "heading_font": "open_sans_n6",
+              "heading_color": "#a32668",
+              "heading_alignment": "left",
+              "heading_size": 30,
+              "text": "<p>If you share a passion in supporting artisans, caring for the environment and offering people real-life decor solutions for their homes, we'd love to hear from you! Our team is based in Seattle, but some roles are remote-friendly, so don't let location stop you from applying.<\/p>\n<p><\/p>\n<p>As part of our&nbsp;team, you'll join us in focusing on our planet&nbsp;by minimizing our impact through artisans and artists that share our values.<\/p>",
+              "text_font": "open_sans_n4",
+              "text_color": "rgba(0,0,0,0)",
+              "text_alignment": "left",
+              "text_size": 16,
+              "columns": 1,
+              "button_label": "View Careers",
+              "button_link": "shopify:\/\/pages\/contact-us",
+              "button_alignment": "left",
+              "button_style": "button--secondary",
+              "background": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 180,
+              "width": "half",
+              "padding_top": 20,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1594657168814": {
+            "type": "blog",
+            "settings": {
+              "title": "Trending on our Blog",
+              "blog_widget_select": "news",
+              "home_page_articles": 4,
+              "blog_show_tags": false,
+              "blog_author": true,
+              "read_time": false,
+              "blog_date": true,
+              "blog_comment_count": true,
+              "blog_show_excerpt": false,
+              "show-border": true,
+              "button_label": "",
+              "button_type": "button--primary",
+              "width": "wide",
+              "padding_top": 80,
+              "padding_bottom": 40,
+              "animation": "none"
+            }
+          }
+        },
+        "block_order": [
+          "page-details__main-0",
+          "1595012100771",
+          "page-details__main-2",
+          "1563766834792",
+          "1594658913759",
+          "1594658971063",
+          "1594657168814"
+        ],
+        "settings": {
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-contact__banner": {
+        "type": "page-contact__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "subtitle": "Subheading",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-contact__main": {
+        "type": "page-contact__main",
+        "blocks": {
+          "page-contact__main-0": {
+            "type": "textfield",
+            "settings": {
+              "label": "Name",
+              "required": true
+            }
+          },
+          "page-contact__main-1": {
+            "type": "email",
+            "settings": {
+              "label": "Email"
+            }
+          },
+          "page-contact__main-2": {
+            "type": "textarea",
+            "settings": {
+              "label": "Message",
+              "required": true
+            }
+          }
+        },
+        "block_order": [
+          "page-contact__main-0",
+          "page-contact__main-1",
+          "page-contact__main-2"
+        ],
+        "settings": {
+          "content_image": "shopify:\/\/shop_images\/emporium__page--contact-01.png",
+          "title": "Get in touch!",
+          "content_text": "<p>We&rsquo;re here to answer any questions or comments you may have! Fill out our contact form and we will try our best to get back to you in 24 hours or less.&nbsp;You can also take a look at our <a href=\"\/pages\/faqs\" title=\"FAQs\">FAQs<\/a>&nbsp;to see if your question already has an answer!<\/p>",
+          "social_enable": true,
+          "text_alignment": "center",
+          "background": "#a32668",
+          "text_color": "#ffffff",
+          "form_position": "right",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-contact__sections": {
+        "type": "page-contact__sections",
+        "blocks": {
+          "page-contact__sections-1": {
+            "type": "map",
+            "settings": {
+              "map_address": "Seattle",
+              "map_height": 400,
+              "zoom_level": 15,
+              "map_image": "",
+              "api_key": "",
+              "show_pin": true,
+              "map_style": "default",
+              "width": "wide",
+              "padding_top": 30,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "page-contact__sections-0": {
+            "type": "rich_text",
+            "settings": {
+              "title": "Visit us",
+              "heading_font": "mundo_sans_n5",
+              "heading_color": "#000000",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "text": "<p>Want to make sure you won't have to pivot your couch up a staircase? Or that the pillow covers match your blankets? Stop by the shop to see us and&nbsp;check out our products in person!&nbsp;<\/p>\n<p>Mon-Fri: 9:00am - 6:00pm<br>Sat: 10:00am - 3:00pm<br>Sun: Closed<\/p>",
+              "text_font": "open_sans_n4",
+              "text_color": "#000000",
+              "text_alignment": "center",
+              "text_size": 14,
+              "columns": 1,
+              "button_label": "",
+              "button_link": "",
+              "button_alignment": "center",
+              "button_style": "button--primary",
+              "background": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 180,
+              "width": "half",
+              "padding_top": 20,
+              "padding_bottom": 40,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          }
+        },
+        "block_order": [
+          "page-contact__sections-1",
+          "page-contact__sections-0"
+        ],
+        "settings": {}
+      },
+      "page-faq__banner": {
+        "type": "page-faq__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "subtitle": "Subheading",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-faq__main": {
+        "type": "page-faq__main",
+        "settings": {
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 80,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-faq__column1": {
+        "type": "page-faq__column1",
+        "blocks": {
+          "page-faq__column1-0": {
+            "type": "heading",
+            "settings": {
+              "title": "Product Information"
+            }
+          },
+          "page-faq__column1-1": {
+            "type": "content",
+            "settings": {
+              "title": "How do you curate your products?",
+              "answer": "<p>We spend our time carefully seeking and developing products that fit a few simple criteria, they need to be durable, quality made with a simplistic, sustainable and ethical approach. Products that stand the test of time, that will age well, using the best materials and are not destined to end up in a landfill. All the product we carry supports people that share our vision.<\/p>"
+            }
+          },
+          "page-faq__column1-2": {
+            "type": "content",
+            "settings": {
+              "title": "How is Emporium different?",
+              "answer": "<p>We work with companies and people who are creating products that are better for our world, artists who have a passion for what they produce as we believe this translates into quality products that are manufactured more responsibly. We hope that these items will become part of your life story.<\/p>"
+            }
+          },
+          "page-faq__column1-3": {
+            "type": "content",
+            "settings": {
+              "title": "How do I care for my product?",
+              "answer": "<p>Best practice for any piece of furniture takes a general precaution towards unusual environments. We recommend avoiding exposure to heat or humidity and direct sunlight to prevent fading and cracking. Surfaces should be covered when possible to prevent obvious damage. Please be aware that heavily dyed fabric can transfer to your furniture and causing discolouration.<\/p>"
+            }
+          },
+          "1563969260310": {
+            "type": "content",
+            "settings": {
+              "title": "Are finish colors shown in your photos accurate?",
+              "answer": "<p>All photos on our website are taken by professional photographers under lighting conditions that are typical in a residential home. We try our best to accurately show the finish color and texture as best we can. If we can be of assistance in selecting the right furniture for your situation, fill out our contact page&rsquo;s form and we would be happy to help.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq__column1-0",
+          "page-faq__column1-1",
+          "page-faq__column1-2",
+          "page-faq__column1-3",
+          "1563969260310"
+        ],
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-faq__column2": {
+        "type": "page-faq__column2",
+        "blocks": {
+          "1563969229704": {
+            "type": "heading",
+            "settings": {
+              "title": "Order Information"
+            }
+          },
+          "1563969231665": {
+            "type": "content",
+            "settings": {
+              "title": "When will my order ship?",
+              "answer": "<p>Our team needs 1-2 business days to pack and ship your full order. For larger items, we ask that you allow 3-4 business days. Orders placed after 1:00 pm EST on Friday &mdash; or over the weekend &mdash; will ship on the next business day.<\/p>"
+            }
+          },
+          "1563969233657": {
+            "type": "content",
+            "settings": {
+              "title": "Where do you ship to?",
+              "answer": "<p>We do ship internationally, however, due to the size of some products, there may be shipping restrictions on these items. If you have a special order you&rsquo;d like to place with us just contact our team and we can try our best to ship the item to your desired location!<\/p>"
+            }
+          },
+          "1563969235848": {
+            "type": "content",
+            "settings": {
+              "title": "I have a question about my order, what should I do?",
+              "answer": "<p>Please contact us by visiting our contact page. will gladly be able to assist you with any questions relating to Orders, Order Modifications, Shipping, Returns, &amp; Cancellations.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1563969229704",
+          "1563969231665",
+          "1563969233657",
+          "1563969235848"
+        ],
+        "settings": {
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__recommendations": {
+        "type": "product__recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_style": "grid",
+          "product_recommendations_heading": "You may also like",
+          "products_per": 3,
+          "recommended_products_limit": 4,
+          "align_height": false,
+          "collection_height": 200
+        }
+      },
+      "blog__banner": {
+        "type": "blog__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "subtitle": "Subheading",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "blog__sidebar": {
+        "type": "blog__sidebar",
+        "blocks": {
+          "blog__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "promo_image": "",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "blog__sidebar-1": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "blog__sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "blog__sidebar-0",
+          "blog__sidebar-1",
+          "blog__sidebar-2"
+        ],
+        "settings": {
+          "show_sidebar": false,
+          "sidebar_position": "left",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "blog__main": {
+        "type": "blog__main",
+        "settings": {
+          "blog_tags": false,
+          "blog_posts_per_row": 3,
+          "blog_posts_per_page": 12,
+          "pagination_type": "basic_pagination",
+          "blog_author": false,
+          "blog_date": true,
+          "read_time": true,
+          "blog_comment_count": true,
+          "blog_show_tags": true,
+          "blog_show_excerpt": true,
+          "show_border": true,
+          "button_label": "Read more",
+          "button_type": "button--primary",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "article__banner": {
+        "type": "article__banner",
+        "settings": {
+          "show_banner": true,
+          "image_darken": false,
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "article__sidebar": {
+        "type": "article__sidebar",
+        "blocks": {
+          "article__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "promo_image": "",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "article__sidebar-1": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "article__sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "article__sidebar-0",
+          "article__sidebar-1",
+          "article__sidebar-2"
+        ],
+        "settings": {
+          "show_sidebar": false,
+          "sidebar_position": "left",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "article__main": {
+        "type": "article__main",
+        "blocks": {
+          "1594651794951": {
+            "type": "comments",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "1594651794951"
+        ],
+        "settings": {
+          "show_breadcrumb": true,
+          "blog_author": true,
+          "blog_date": true,
+          "read_time": true,
+          "blog_comment_count": true,
+          "show_tags": false,
+          "show_featured_image": false,
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": "figure.image {\ndisplay: none;\n}"
+        }
+      },
+      "search__banner": {
+        "type": "search__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "search__sidebar": {
+        "type": "search__sidebar",
+        "blocks": {
+          "search__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "promo_image": "",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "search__sidebar-1": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "search__sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "search__sidebar-0",
+          "search__sidebar-1",
+          "search__sidebar-2"
+        ],
+        "settings": {
+          "show_sidebar": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1569421047924": {
+        "type": "index__slideshow-classic",
+        "blocks": {
+          "1569421047924-0": {
+            "type": "image",
+            "settings": {
+              "pretext": "",
+              "title": "Bring in New Light",
+              "subtitle": "<p>Illuminate your home with our latest arrivals<\/p>",
+              "pretext_color": "#000000",
+              "heading_color": "#a32668",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "right",
+              "background_color": "#ffffff",
+              "background_opacity": 77,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "Shop New",
+              "button_1_link": "shopify:\/\/collections\/new",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          },
+          "1569421047924-1": {
+            "type": "image",
+            "settings": {
+              "pretext": "",
+              "title": "Comfortable Essentials",
+              "subtitle": "<p>Keeping it simple and cozy all year round<\/p>",
+              "pretext_color": "#000000",
+              "heading_color": "#a32668",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "left",
+              "background_color": "#ffffff",
+              "background_opacity": 77,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "Shop Home Decor",
+              "button_1_link": "shopify:\/\/collections\/home-decor",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "block_order": [
+          "1569421047924-0",
+          "1569421047924-1"
+        ],
+        "settings": {
+          "image_transition": "slide",
+          "image_slideshow_speed": 8,
+          "show_arrows": true,
+          "show_nav_buttons": true,
+          "mobile_text_below_image": true,
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "list-collections__main": {
+        "type": "list-collections__main",
+        "settings": {
+          "collections_per_row": 3,
+          "pagination_limit": 48,
+          "pagination_type": "basic_pagination",
+          "align_height": false,
+          "collection_height": 400,
+          "button_style": "button--secondary",
+          "overlay_background": "#939393",
+          "overlay_background_opacity": 70,
+          "overlay_text": "#ffffff",
+          "collection_title_below_image": false,
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1581615148382": {
+        "type": "index__heading",
+        "settings": {
+          "preheading": "",
+          "title": "Home decor ideas & inspo for every style",
+          "subheading": "",
+          "preheading_color": "rgba(0,0,0,0)",
+          "heading_color": "rgba(0,0,0,0)",
+          "subheading_color": "rgba(0,0,0,0)",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "heading_alignment": "center",
+          "vertical_spacing": "medium",
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1581615385286": {
+        "type": "index__gallery",
+        "blocks": {
+          "1581615385286-0": {
+            "type": "image",
+            "settings": {}
+          },
+          "1581615385286-1": {
+            "type": "image",
+            "settings": {}
+          },
+          "1581615385286-2": {
+            "type": "image",
+            "settings": {}
+          },
+          "1581615385286-3": {
+            "type": "image",
+            "settings": {}
+          },
+          "1581615425763": {
+            "type": "image",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "1581615385286-0",
+          "1581615385286-1",
+          "1581615385286-2",
+          "1581615385286-3",
+          "1581615425763"
+        ],
+        "settings": {
+          "gallery_type": "classic",
+          "crop_images": false,
+          "images_per_row": 5,
+          "enable_lightbox": false,
+          "overlay_color": "#000000",
+          "link_color": "#ffffff",
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-centered__top-bar": {
+        "type": "header-centered__top-bar",
+        "settings": {
+          "show_social_icons": true,
+          "text": "<p>Add a phone number or other information.<\/p>",
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "font": "open_sans_n4",
+          "font_style": "none",
+          "font_size": 14,
+          "letter_spacing": 0,
+          "top_bar_background": "rgba(0,0,0,0)",
+          "top_bar_link": "rgba(0,0,0,0)",
+          "top_bar_link_hover": "rgba(0,0,0,0)",
+          "top_bar_text": "rgba(0,0,0,0)",
+          "display_search": true,
+          "icon_style": "icons",
+          "cart_button_background": "#000000",
+          "cart_button_text": "#ffffff",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-centered": {
+        "type": "header-centered",
+        "settings": {
+          "logo_width": 200,
+          "logo_position": "between",
+          "main_linklist": "main-menu",
+          "menu_spacing": "default",
+          "dropdown_click": false,
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_logo_width": 80,
+          "enable_sticky": false,
+          "display_search": true,
+          "sticky_background_opacity": 50,
+          "scroll_logo_width": 200,
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "1569421047924",
+      "1557099098656",
+      "1557374553002",
+      "ec01fd2dafe8",
+      "1558705425774",
+      "1558705605295",
+      "1557099078699",
+      "1557099063267",
+      "dce2651bd52b",
+      "a06d72dd0a4c",
+      "1562875542813",
+      "1581615148382",
+      "1581615385286"
+    ]
+  }
+}
