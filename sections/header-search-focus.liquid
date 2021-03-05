@@ -137,43 +137,46 @@
         {% render 'header__action-icons', icon_style: section.settings.icon_style %}
 
       </div>
-
+    </section>
       {% comment %} Menu {% endcomment %}
       <nav class="sticky-menu-wrapper is-align-center" role="navigation" aria-label="main navigation">
         <div class="header__menu">
-          <div class="header__menu-items
-                      header__dropdown--{{ settings.dropdown_position }}
-                      dropdown-click--{{ section.settings.dropdown_click }}
-                      is-flex
-                      is-flex-wrap
-                      is-align-center
-                      is-justify-{{ section.settings.menu_alignment }}">
-            {% assign main_menu = linklists[section.settings.main_linklist] %}
-            {% for link in main_menu.links %}
-              {% if link.links == blank %}
-                <div class="navbar-item header__item {% if link.active or link.child_active %}is-active{% endif %}" data-navlink-handle="{{ link.title | handleize }}">
-                  <a href="{{ link.url }}" class="navbar-link header__link {% if link.active %}is-active{% endif %} is-arrowless">
-                    {{ link.title }}
-                  </a>
-                </div>
-              {% else %}
-                <div class="navbar-item header__item has-dropdown has-dropdown--{{ settings.dropdown_style }} is-hoverable {% if link.active or link.child_active %}is-active{% endif %}" aria-haspopup="true" aria-expanded="false" data-navlink-handle="{{ link.title | handleize }}">
-                  <a class="navbar-link header__link {% if link.active or link.child_active %}is-active{% endif %}"
-                  {% unless link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %} href="{{ link.url }}" {% endunless %}>
-                    {{ link.title }}
-                  </a>
+          <section class="section
+                  is-width-{{ width }}">
+            <div class="header__menu-items
+                        header__dropdown--{{ settings.dropdown_position }}
+                        dropdown-click--{{ section.settings.dropdown_click }}
+                        is-flex
+                        is-flex-wrap
+                        is-align-center
+                        is-justify-{{ section.settings.menu_alignment }}">
+              {% assign main_menu = linklists[section.settings.main_linklist] %}
+              {% for link in main_menu.links %}
+                {% if link.links == blank %}
+                  <div class="navbar-item header__item {% if link.active or link.child_active %}is-active{% endif %}" data-navlink-handle="{{ link.title | handleize }}">
+                    <a href="{{ link.url }}" class="navbar-link header__link {% if link.active %}is-active{% endif %} is-arrowless">
+                      {{ link.title }}
+                    </a>
+                  </div>
+                {% else %}
+                  <div class="navbar-item header__item has-dropdown has-dropdown--{{ settings.dropdown_style }} is-hoverable {% if link.active or link.child_active %}is-active{% endif %}" aria-haspopup="true" aria-expanded="false" data-navlink-handle="{{ link.title | handleize }}">
+                    <a class="navbar-link header__link {% if link.active or link.child_active %}is-active{% endif %}"
+                    {% unless link.url == 'http://' or link.url == '' or link.url == '/' or link.url == 'https://' or link.url == '#' %} href="{{ link.url }}" {% endunless %}>
+                      {{ link.title }}
+                    </a>
 
-                  {% render 'header__dropdown-menu',
-                          link: link,
-                          index: forloop.index
-                  %}
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div>
+                    {% render 'header__dropdown-menu',
+                            link: link,
+                            index: forloop.index
+                    %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </section>
         </div>
       </nav>
-    </section>
+
   </header>
 
   {% render 'mobile-header' %}
