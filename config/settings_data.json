@@ -1,7 +1,7 @@
 {
   "current": {
-    "show_announcement_bar": true,
-    "show_popup": true,
+    "show_announcement_bar": false,
+    "show_popup": false,
     "show_fixed_message": true,
     "header_layout": "search_focus",
     "footer_layout": "classic",
@@ -62,7 +62,7 @@
     "breadcrumb_size": "regular",
     "dropdown_style": "vertical",
     "dropdown_position": "below-parent",
-    "dropdown_link_spacing": "medium",
+    "dropdown_link_spacing": "large",
     "use_placeholders": false,
     "form_button_style": "button--primary",
     "display_heading_divider": true,
@@ -76,15 +76,15 @@
     "qty_border_radius": 0,
     "tag_style": "solid",
     "mega_menu_1": true,
-    "mega_menu_2": false,
-    "mega_menu_3": false,
-    "mega_menu_4": false,
-    "mega_menu_5": false,
-    "mega_menu_6": false,
-    "mega_menu_7": false,
-    "mega_menu_8": false,
-    "mega_menu_9": false,
-    "mega_menu_10": false,
+    "mega_menu_2": true,
+    "mega_menu_3": true,
+    "mega_menu_4": true,
+    "mega_menu_5": true,
+    "mega_menu_6": true,
+    "mega_menu_7": true,
+    "mega_menu_8": true,
+    "mega_menu_9": true,
+    "mega_menu_10": true,
     "shop_bg_color": "#ffffff",
     "border_color": "#d3d3d3",
     "regular_color": "#222222",
@@ -92,17 +92,17 @@
     "link_hover_color": "#555555",
     "heading_color": "#000000",
     "banner_heading_color": "#ffffff",
-    "divider_color": "#a32668",
+    "divider_color": "#222222",
     "logo_text": "#ffffff",
     "header_background": "#ffffff",
-    "header_link_color": "#a32668",
+    "header_link_color": "#222222",
     "header_link_hover_color": "#85af92",
     "header_cart_badge_color": "#ae3333",
     "cart_background_color": "#fff",
     "show_dropdown_shadow": true,
     "dropdown_background": "#ffffff",
     "dropdown_background_opacity": 100,
-    "dropdown_link_color": "#a32668",
+    "dropdown_link_color": "#222222",
     "dropdown_link_hover_color": "#85af92",
     "footer_background": "#ffffff",
     "footer_border": "#a32668",
@@ -128,7 +128,7 @@
     "logo__font": "mundo_sans_n4",
     "logo_font_size": 20,
     "logo_font_style": "none",
-    "nav__font": "mundo_sans_n4",
+    "nav__font": "helvetica_n4",
     "nav_font_size": 15,
     "nav_letter_spacing": 0,
     "nav_font_style": "none",
@@ -139,7 +139,7 @@
     "button__font": "open_sans_n4",
     "button_letter_spacing": 0,
     "button_font_style": "none",
-    "heading__font": "mundo_sans_n5",
+    "heading__font": "helvetica_n4",
     "heading_size": 28,
     "heading_letter_spacing": 0,
     "heading_font_style": "none",
@@ -783,17 +783,11 @@
       "mega-menu-1": {
         "type": "mega-menu-1",
         "blocks": {
-          "mega-menu-1-4": {
-            "type": "image",
-            "settings": {
-              "image_link": "shopify:\/\/collections\/ceramics",
-              "image_caption": "<p><strong>New Ceramics!<\/strong><\/p>"
-            }
-          },
           "1557941605052": {
             "type": "menu",
             "settings": {
-              "menu_1": ""
+              "menu_1": "mega-menu-1",
+              "menu_1_link": "shopify:\/\/collections\/new"
             }
           },
           "mega-menu-1-0": {
@@ -802,40 +796,25 @@
               "menu_1": ""
             }
           },
-          "1557941896278": {
-            "type": "menu",
+          "91907f8c-ea4a-428c-b3cf-bbb008c9feea": {
+            "type": "image",
             "settings": {
-              "menu_1": ""
-            }
-          },
-          "1557941905666": {
-            "type": "menu",
-            "settings": {
-              "menu_1": ""
-            }
-          },
-          "mega-menu-1-5": {
-            "type": "featured_product",
-            "settings": {
-              "featured_product": "cedar-magazine-issue-1",
-              "richtext_bottom": ""
+              "image": "shopify:\/\/shop_images\/george-bohunicky-qJKT2rMU0VU.jpg",
+              "image_caption": ""
             }
           }
         },
         "block_order": [
-          "mega-menu-1-4",
           "1557941605052",
           "mega-menu-1-0",
-          "1557941896278",
-          "1557941905666",
-          "mega-menu-1-5"
+          "91907f8c-ea4a-428c-b3cf-bbb008c9feea"
         ],
         "settings": {
-          "parent_link": "Shop",
+          "parent_link": "New",
           "enable_mega_menu_border": false,
           "mega_menu_background_color": "#f6f6f6",
           "mega_menu_text_color": "#404040",
-          "show_mega_bottom_bar": true,
+          "show_mega_bottom_bar": false,
           "mega_bottom_bar_icon": "calendar",
           "mega_bottom_bar_text": "Shop our Editor's Picks for the Season here!",
           "mega_bottom_bar_link": "shopify:\/\/collections\/editors-picks",
@@ -851,8 +830,8 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/logo-placeholder.png",
           "logo_width": 205,
-          "search_background": "#a32668",
-          "search_icon": "#ffffff",
+          "search_background": "rgba(0,0,0,0)",
+          "search_icon": "#222222",
           "icon_style": "icons_text",
           "main_linklist": "main-menu",
           "menu_alignment": "center",
@@ -862,7 +841,7 @@
           "scroll_logo_width": 200,
           "width": "standard",
           "css_class": "",
-          "custom_css": ""
+          "custom_css": "\/* Nav background color black *\/\n.header__menu {\n  background: #222;\n}\n\n\/* Nav items font color white *\/\n.navbar-link.header__link {\n  color: #FFFFFF;\n}\n\n\/* Space out nav items *\/\n.header__menu-items.is-justify-center {\n  justify-content: space-between;\n}\n.control.header__search-bar.is-relative input {\n  border-radius: 20px;\n}"
         }
       },
       "footer-centered": {
@@ -917,7 +896,7 @@
           "collection": "gifts",
           "products_per": 7,
           "mobile_products_per_row": "1",
-          "products_limit": 15,
+          "products_limit": 17,
           "align_height": false,
           "collection_height": 150,
           "collection_style": "slider",
@@ -2148,9 +2127,630 @@
           "css_class": "",
           "custom_css": ""
         }
+      },
+      "1614802048f38cd922": {
+        "type": "index__html",
+        "settings": {
+          "html_content": "<div class=\"container is-flex is-justify-center\"><h3 class=\"title\">Free Shipping On Orders with Code FREESHIP . See Terms. ▸<\/h3><\/div>",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "rc-announcement-bar",
+          "custom_css": ".rc-announcement-bar {\n  background: #E4E4E8;\n}\n.rc-announcement-bar h3 {\n font-size: 1rem;\nfont-weight: bold;\n  color: #222;\n  padding: 1rem 0;\n\n}"
+        }
+      },
+      "mega-menu-2": {
+        "type": "mega-menu-2",
+        "blocks": {
+          "mega-menu-2-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "09923510-855d-4fa7-b087-08cbd7071333": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "6613309f-b131-4a37-b37b-ad14c5929ac2": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "93dc186f-7c3a-4c12-8317-e1df15cded09": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "ff3e3d91-14b0-462b-8a1e-70c263a307e5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ayo-ogunseinde-MLDQVQL_4_0.jpg",
+              "image_caption": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-2-0",
+          "09923510-855d-4fa7-b087-08cbd7071333",
+          "6613309f-b131-4a37-b37b-ad14c5929ac2",
+          "93dc186f-7c3a-4c12-8317-e1df15cded09",
+          "ff3e3d91-14b0-462b-8a1e-70c263a307e5"
+        ],
+        "settings": {
+          "parent_link": "Brands",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-3": {
+        "type": "mega-menu-3",
+        "blocks": {
+          "mega-menu-3-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "ef203f39-357a-43a5-b008-dd1898e89482": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "b6b5a809-ed38-4c1d-afb6-2e34d87e29e9": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "dfc60511-a4ad-444d-9a64-7c1e71f61bcd": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "d8c3d8e9-ac17-4434-a6b6-877ea1cb8f9a": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "222bb06e-7236-49b6-a347-e0b8ef80662a": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-3-0",
+          "ef203f39-357a-43a5-b008-dd1898e89482",
+          "b6b5a809-ed38-4c1d-afb6-2e34d87e29e9",
+          "dfc60511-a4ad-444d-9a64-7c1e71f61bcd",
+          "d8c3d8e9-ac17-4434-a6b6-877ea1cb8f9a",
+          "222bb06e-7236-49b6-a347-e0b8ef80662a"
+        ],
+        "settings": {
+          "parent_link": "Makeup",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-4": {
+        "type": "mega-menu-4",
+        "blocks": {
+          "mega-menu-4-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "a141c6cc-4226-430b-902f-3cf517ee12c9": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "a27b396f-0588-4d38-867e-a1b5ebabd8f6": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "c6907128-5cea-4390-9175-cbb445c998f6": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "a56103e7-4819-4d8a-9cd7-253bc0140b7b": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "eddb0bb9-5028-47bf-ac42-2531d796d499": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-4-0",
+          "a141c6cc-4226-430b-902f-3cf517ee12c9",
+          "a27b396f-0588-4d38-867e-a1b5ebabd8f6",
+          "c6907128-5cea-4390-9175-cbb445c998f6",
+          "a56103e7-4819-4d8a-9cd7-253bc0140b7b",
+          "eddb0bb9-5028-47bf-ac42-2531d796d499"
+        ],
+        "settings": {
+          "parent_link": "Skincare",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-5": {
+        "type": "mega-menu-5",
+        "blocks": {
+          "mega-menu-5-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "11d0d3e1-4f84-4be0-a256-6885ebad3594": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "431161e7-63be-44a0-8938-f1f4f53a6cec": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "e0565892-8c31-45e3-8b1f-7dc5b6040b66": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "32684ecc-f95e-46e5-be68-5eebd970a7e1": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "0af3b58c-315f-4216-aa0c-b1100c4f31cc": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-5-0",
+          "11d0d3e1-4f84-4be0-a256-6885ebad3594",
+          "431161e7-63be-44a0-8938-f1f4f53a6cec",
+          "e0565892-8c31-45e3-8b1f-7dc5b6040b66",
+          "32684ecc-f95e-46e5-be68-5eebd970a7e1",
+          "0af3b58c-315f-4216-aa0c-b1100c4f31cc"
+        ],
+        "settings": {
+          "parent_link": "Hair",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-6": {
+        "type": "mega-menu-6",
+        "blocks": {
+          "mega-menu-6-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "mega-menu-6-1": {
+            "type": "featured_promo",
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion<\/p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-6-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Your headline",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_2": "",
+              "menu_3": "",
+              "menu_4": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-6-3": {
+            "type": "empty_column",
+            "settings": {}
+          },
+          "mega-menu-6-4": {
+            "type": "image",
+            "settings": {
+              "image_caption": "<p>Image caption appears here<\/p>"
+            }
+          },
+          "mega-menu-6-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-6-0",
+          "mega-menu-6-1",
+          "mega-menu-6-2",
+          "mega-menu-6-3",
+          "mega-menu-6-4",
+          "mega-menu-6-5"
+        ],
+        "settings": {
+          "parent_link": "Fragrance",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-7": {
+        "type": "mega-menu-7",
+        "blocks": {
+          "mega-menu-7-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "mega-menu-7-1": {
+            "type": "featured_promo",
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion<\/p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-7-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Your headline",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_2": "",
+              "menu_3": "",
+              "menu_4": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-7-3": {
+            "type": "empty_column",
+            "settings": {}
+          },
+          "mega-menu-7-4": {
+            "type": "image",
+            "settings": {
+              "image_caption": "<p>Image caption appears here<\/p>"
+            }
+          },
+          "mega-menu-7-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-7-0",
+          "mega-menu-7-1",
+          "mega-menu-7-2",
+          "mega-menu-7-3",
+          "mega-menu-7-4",
+          "mega-menu-7-5"
+        ],
+        "settings": {
+          "parent_link": "Tools & Brushes",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-8": {
+        "type": "mega-menu-8",
+        "blocks": {
+          "mega-menu-8-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "mega-menu-8-1": {
+            "type": "featured_promo",
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion<\/p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-8-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Your headline",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_2": "",
+              "menu_3": "",
+              "menu_4": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-8-3": {
+            "type": "empty_column",
+            "settings": {}
+          },
+          "mega-menu-8-4": {
+            "type": "image",
+            "settings": {
+              "image_caption": "<p>Image caption appears here<\/p>"
+            }
+          },
+          "mega-menu-8-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-8-0",
+          "mega-menu-8-1",
+          "mega-menu-8-2",
+          "mega-menu-8-3",
+          "mega-menu-8-4",
+          "mega-menu-8-5"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-9": {
+        "type": "mega-menu-9",
+        "blocks": {
+          "mega-menu-9-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "mega-menu-9-1": {
+            "type": "featured_promo",
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion<\/p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-9-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Your headline",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_2": "",
+              "menu_3": "",
+              "menu_4": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-9-3": {
+            "type": "empty_column",
+            "settings": {}
+          },
+          "mega-menu-9-4": {
+            "type": "image",
+            "settings": {
+              "image_caption": "<p>Image caption appears here<\/p>"
+            }
+          },
+          "mega-menu-9-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-9-0",
+          "mega-menu-9-1",
+          "mega-menu-9-2",
+          "mega-menu-9-3",
+          "mega-menu-9-4",
+          "mega-menu-9-5"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-10": {
+        "type": "mega-menu-10",
+        "blocks": {
+          "mega-menu-10-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": ""
+            }
+          },
+          "mega-menu-10-1": {
+            "type": "featured_promo",
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion<\/p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-10-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Your headline",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_2": "",
+              "menu_3": "",
+              "menu_4": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-10-3": {
+            "type": "empty_column",
+            "settings": {}
+          },
+          "mega-menu-10-4": {
+            "type": "image",
+            "settings": {
+              "image_caption": "<p>Image caption appears here<\/p>"
+            }
+          },
+          "mega-menu-10-5": {
+            "type": "featured_product",
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-10-0",
+          "mega-menu-10-1",
+          "mega-menu-10-2",
+          "mega-menu-10-3",
+          "mega-menu-10-4",
+          "mega-menu-10-5"
+        ],
+        "settings": {
+          "parent_link": "Bath & Body",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": true,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
       }
     },
     "content_for_index": [
+      "1614802048f38cd922",
       "1569421047924",
       "1557099098656",
       "1557374553002",

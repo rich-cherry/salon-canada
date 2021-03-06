@@ -15869,3 +15869,14 @@ $subtotal-bg-color: #F2F2F2;
 section {
   border: 1px solid red;
 }
+
+
+.navbar-link:not(.is-arrowless) {
+    padding-right: 0;
+}
+
+@media only screen and (min-width: 799px){
+  .navbar-item.has-dropdown a:after, .navbar-item.has-mega-menu a:after {
+    display: none;
+  }
+}
