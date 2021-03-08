@@ -1,3 +1,15 @@
+<style>
+  #template-page-brands h1 {
+    margin: 0 auto;
+  }
+
+  #template-page-brands .container {
+    margin: 2rem 0;
+    flex-direction: column;
+  }
+
+</style>
+
 {% comment %}
   To edit the contents of this file, look inside the `sections` folder for the file name that comes directly after `section`. Eg. {% section 'product__main' %} or {% section 'page__banner' %}
 {% endcomment %}
@@ -7,7 +19,19 @@
                   section
                   ">
     <div class="container">
-      {% section 'page__main' %}
+      <h1>All Brands</h1>
+      <ul>
+      {% assign shop_vendors = shop.vendors %}
+      {%- for brand in shop.vendors -%}
+        {%- assign first_letter = brand | slice: 0 -%}
+        {%- assign prev_index = forloop.index0 | minus: 1 -%}
+        {%- assign prev_letter = shop_vendors[prev_index] | slice: 0  -%}
+        {%- if forloop.first == true or first_letter != prev_letter -%}
+          <h2>{{ first_letter }}</h2>
+        {%- endif -%}
+        <li>{{ brand | link_to_vendor }}</li>
+      {%- endfor -%}
+      </ul>
     </div>
   </section>
 </main>
