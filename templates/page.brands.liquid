@@ -1,14 +1,15 @@
 <style>
-  #template-page-brands h1 {
+  #template-page-brands h1, #template-page-brands h2 {
     margin: 0 auto;
+    text-align: center;
   }
 
   #template-page-brands .container {
-    margin: 2rem 0;
+    margin-top: 2rem;
     flex-direction: column;
   }
 
-  #template-page-brands .container li {
+  #template-page-brands .brands-content li {
     text-transform: capitalize;
     margin-left: 3rem;
   }
@@ -18,7 +19,7 @@
     height: 1px;
 }
 
-  .letter-content {
+  .brands-content {
     display: grid;
     grid-template-columns: 12% 1fr;
     grid-gap: 2rem;
@@ -36,7 +37,7 @@
     text-transform: capitalize;
   }
 
-  .letter-content ul {
+  .brands-content ul {
     grid-column: 2;
     -webkit-column-count: 4;
     column-count: 4;
@@ -48,22 +49,37 @@
     justify-content: space-around;
   }
 
+  #template-page-brands .heading-divider:not(.heading-divider--vertical) {
+    display: none;
+  }
+
+  #template-page-brands .heading-wrapper {
+    margin-bottom: 0;
+  }
+
+  #brand-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 </style>
 
-{% comment %}
-  To edit the contents of this file, look inside the `sections` folder for the file name that comes directly after `section`. Eg. {% section 'product__main' %} or {% section 'page__banner' %}
-{% endcomment %}
+
 
 <main id="template-{{ template | replace: '.', '-' | handle }}" class="shopify-section default-page">
   <section class="section__wrapper
                   section
                   ">
     <div class="container">
-      <h1>All Brands</h1>
+
+      {% section 'page__brands' %}
+
+
       <div id="brand-links">
         {%- assign alphabet = "abcdefghijklmnopqrstuvwxyz" | split: "" -%}
         {%- for letter in alphabet -%}
-          <a href="#letter-{{letter}}">{{ letter }}</a>
+          <a href="#brands-{{letter}}">{{ letter }}</a>
         {%- endfor -%}
       </div>
       {% assign shop_vendors = shop.vendors %}
@@ -73,15 +89,15 @@
         {%- assign prev_letter = shop_vendors[prev_index] | slice: 0 | downcase  -%}
         {%- if forloop.first == true -%}
           <hr>
-          <div class="letter-content">
-            <h2 class="first-letter" id="letter-{{ first_letter }}">{{ first_letter | upcase }}</h2>
+          <div class="brands-content">
+            <h2 class="first-letter" id="brands-{{ first_letter }}">{{ first_letter | upcase }}</h2>
             <ul>
         {%- elsif first_letter != prev_letter -%}
             </ul>
           </div>
           <hr>
-          <div class="letter-content">
-            <h2 class="first-letter" id="letter-{{ first_letter }}">{{ first_letter | upcase }}</h2>
+          <div class="brands-content">
+            <h2 class="first-letter" id="brands-{{ first_letter }}">{{ first_letter | upcase }}</h2>
             <ul>
         {%- endif -%}
         <li>{{ brand | link_to_vendor | downcase }}</li>
