@@ -38,53 +38,56 @@
   }
 </style>
 
+<div id="brands-container">
+
 {% comment %}Rich / Storetasker, added section below for featured  logos{% endcomment %}
-<h1>{{ section.settings.title | escape }}</h1>
+  <div id="featured-brands-container">
+    <h1 style="font-family: {{ section.settings.header_font }};">{{ section.settings.title | escape }}</h1>
 
-{%- if section.blocks.size > 0 -%}
-  <ul id="brand-logos">
-    {%- for block in section.blocks -%}
-      <li class="logo-bar__item" {{ block.shopify_attributes }}>
-        {%- if block.settings.link != blank -%}
-          <a href="{{ block.settings.link }}">
-        {%- endif -%}
+    {%- if section.blocks.size > 0 -%}
+      <ul id="brand-logos">
+        {%- for block in section.blocks -%}
+          <li class="logo-bar__item" {{ block.shopify_attributes }}>
+            {%- if block.settings.link != blank -%}
+              <a href="{{ block.settings.link }}">
+            {%- endif -%}
 
-          {%- if block.settings.image != blank -%}
-            {{ block.settings.image | img_url: '160x160', scale: 2 | img_tag: block.settings.image.alt }}
-          {%- else -%}
-            {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
+              {%- if block.settings.image != blank -%}
+                {{ block.settings.image | img_url: '160x160', scale: 2 | img_tag: block.settings.image.alt }}
+              {%- else -%}
+                {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
 
-        {%- if block.settings.link != blank -%}
-          </a>
-        {%- endif -%}
-      </li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
-{% comment %}Rich / Storetasker, added section below for featured  logos{% endcomment %}
-
-
-<div class="{{ css_class }}
-            is-width-{{ width }}
-            ">
-  <div class="container page__container">
-
-    {% unless template contains 'page.banner' %}
-      {% render 'heading',
-              title: page.title,
-              heading_tag: 'h1',
-              context: 'page',
-              text_alignment: 'left'
-      %}
-    {% endunless %}
-
+            {%- if block.settings.link != blank -%}
+              </a>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
   </div>
-  <div class="page__content content container {% if settings.table_styles_enabled %} table is-striped is-bordered {% endif %}">
-    {% render 'page-multi-column', content: page.content %}
+  {% comment %}end{% endcomment %}
+
+  <div class="{{ css_class }}
+              is-width-{{ width }}
+              ">
+    <div class="container page__container">
+
+      {% unless template contains 'page.banner' %}
+        {% render 'heading',
+                title: page.title,
+                heading_tag: 'h1',
+                context: 'page',
+                text_alignment: 'left'
+        %}
+      {% endunless %}
+
+    </div>
+    <div class="page__content content container {% if settings.table_styles_enabled %} table is-striped is-bordered {% endif %}">
+      {% render 'page-multi-column', content: page.content %}
+    </div>
   </div>
 </div>
-
 {% schema %}
   {
     "name": "Page",
@@ -151,79 +154,89 @@
     "class": "index-section",
     "max_blocks": 10,
     "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Featured"
-    },
-    {
-      "type": "select",
-      "id": "logo_width",
-      "label": "Logo width",
-      "default": "160px",
-      "options": [
-        {
-          "label": "Extra Small",
-          "value": "100px"
-        },
-        {
-          "label": "Small",
-          "value": "125px"
-        },
-        {
-          "label": "Medium",
-          "value": "160px"
-        },
-        {
-          "label": "Large",
-          "value": "175px"
-        },
-        {
-          "label": "Extra Large",
-          "value": "200px"
-        }
-      ]
-    }
-  ],
-  "blocks": [
-    {
-      "type": "logo_image",
-      "name": "Logo",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link",
-          "info": "Optional"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Logo list",
-      "category": "Image",
-      "blocks": [
-        {
-          "type": "logo_image"
-        },
-        {
-          "type": "logo_image"
-        },
-        {
-          "type": "logo_image"
-        },
-        {
-          "type": "logo_image"
-        }
-      ]
-    }
-  ]
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Featured"
+      },
+      {
+        "type": "radio",
+        "id": "header_font",
+        "options": [
+            { "value": "Georgia, serif", "label": "Georgia"},
+            { "value": "inherit", "label": "Deafult"}
+        ],
+        "label": "Font"
+
+      },
+      {
+        "type": "select",
+        "id": "logo_width",
+        "label": "Logo width",
+        "default": "160px",
+        "options": [
+          {
+            "label": "Extra Small",
+            "value": "100px"
+          },
+          {
+            "label": "Small",
+            "value": "125px"
+          },
+          {
+            "label": "Medium",
+            "value": "160px"
+          },
+          {
+            "label": "Large",
+            "value": "175px"
+          },
+          {
+            "label": "Extra Large",
+            "value": "200px"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "logo_image",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link",
+            "info": "Optional"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logo list",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "logo_image"
+          },
+          {
+            "type": "logo_image"
+          },
+          {
+            "type": "logo_image"
+          },
+          {
+            "type": "logo_image"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}

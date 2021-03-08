@@ -4,8 +4,11 @@
     text-align: center;
   }
 
+  #template-page-brands .page__title.title {
+    font-family: Georgia,Times,Times New Roman,serif;
+  }
+
   #template-page-brands .container {
-    margin-top: 2rem;
     flex-direction: column;
   }
 
@@ -17,7 +20,15 @@
   #template-page-brands .container hr {
     background-color: rgba(0,0,0,0.0625);
     height: 1px;
-}
+  }
+
+  #brands-container{
+    margin-top: 2rem;
+  }
+
+  #brands-container h1:first-of-type {
+    margin-bottom: 2rem;
+  }
 
   .brands-content {
     display: grid;
@@ -34,7 +45,7 @@
     font-weight: 700;
     margin-top: .125em;
     margin-bottom: 8px;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
 
   .brands-content ul {
@@ -43,10 +54,28 @@
     column-count: 4;
   }
 
+  @media (max-width: 768px){
+    .brands-content ul {
+      -webkit-column-count: 1;
+      column-count: 1;
+    }
+  }
+
   #brand-links {
     width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+
+  @media (max-width: 768px){
+    #brand-links {
+      display: block;
+      text-align: center;
+    }
+    #brand-links a {
+      margin: 4%;
+      line-height: 2;
+    }
   }
 
   #template-page-brands .heading-divider:not(.heading-divider--vertical) {
@@ -63,9 +92,13 @@
     align-items: center;
   }
 
+  @media(max-width: 768px) {
+    #featured-brands-container {
+      display: none;
+    }
+  }
+
 </style>
-
-
 
 <main id="template-{{ template | replace: '.', '-' | handle }}" class="shopify-section default-page">
   <section class="section__wrapper
@@ -74,7 +107,6 @@
     <div class="container">
 
       {% section 'page__brands' %}
-
 
       <div id="brand-links">
         {%- assign alphabet = "abcdefghijklmnopqrstuvwxyz" | split: "" -%}
