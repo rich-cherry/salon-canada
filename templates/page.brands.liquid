@@ -24,7 +24,7 @@
     grid-gap: 2rem;
   }
 
-  .first-letter {
+  .first-letter, #brand-links a {
     grid-column: 1;
     text-align: center;
     white-space: pre-wrap;
@@ -33,12 +33,19 @@
     font-weight: 700;
     margin-top: .125em;
     margin-bottom: 8px;
+    text-transform: capitalize;
   }
 
   .letter-content ul {
     grid-column: 2;
     -webkit-column-count: 4;
     column-count: 4;
+  }
+
+  #brand-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 
 </style>
@@ -53,6 +60,12 @@
                   ">
     <div class="container">
       <h1>All Brands</h1>
+      <div id="brand-links">
+        {%- assign alphabet = "abcdefghijklmnopqrstuvwxyz" | split: "" -%}
+        {%- for letter in alphabet -%}
+          <a href="#letter-{{letter}}">{{ letter }}</a>
+        {%- endfor -%}
+      </div>
       {% assign shop_vendors = shop.vendors %}
       {%- for brand in shop.vendors -%}
         {%- assign first_letter = brand | slice: 0 | downcase -%}
@@ -61,14 +74,14 @@
         {%- if forloop.first == true -%}
           <hr>
           <div class="letter-content">
-            <h2 class="first-letter">{{ first_letter | upcase }}</h2>
+            <h2 class="first-letter" id="letter-{{ first_letter }}">{{ first_letter | upcase }}</h2>
             <ul>
         {%- elsif first_letter != prev_letter -%}
             </ul>
           </div>
           <hr>
           <div class="letter-content">
-            <h2 class="first-letter">{{ first_letter | upcase }}</h2>
+            <h2 class="first-letter" id="letter-{{ first_letter }}">{{ first_letter | upcase }}</h2>
             <ul>
         {%- endif -%}
         <li>{{ brand | link_to_vendor | downcase }}</li>
