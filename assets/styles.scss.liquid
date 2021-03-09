@@ -15870,7 +15870,6 @@ section {
   border: 1px solid red;
 }
 
-
 .navbar-link:not(.is-arrowless) {
     padding-right: 0;
 }
@@ -15879,4 +15878,14 @@ section {
   .navbar-item.has-dropdown a:after, .navbar-item.has-mega-menu a:after {
     display: none;
   }
+}
+
+// Add spacing to bottom of reviews stars on product page
+.spr-badge-container {
+    margin-bottom: 1.2rem;
+}
+// Reduce size of review star
+[class^="spr-icon-"]:before,
+[class*=" spr-icon-"]:before {
+  font-size: 100% !important;
 }
