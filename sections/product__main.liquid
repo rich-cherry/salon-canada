@@ -87,20 +87,6 @@
                   column
                   medium-down--one-whole">
 
-        {% comment %} Sale sticker {% endcomment %}
-        {% if settings.stickers_enabled %}
-          {% render 'product-thumbnail__sticker',
-                  context: 'product',
-                  collection_handles: collection_handles
-          %}
-        {% endif %}
-
-        {% comment %} Review stars {% endcomment %}
-        {% if section.settings.enable_shopify_product_badges and settings.enable_shopify_review_comments %}
-          <div class="spr-badge-container">
-            <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-          </div>
-        {% endif %}
 
         {% comment %} Vendor {% endcomment %}
         {% if section.settings.display_vendor %}
@@ -120,6 +106,13 @@
 
           {% comment %} Name {% endcomment %}
           <h1 class="product_name title">{{ product.title }}</h1>
+
+          {% comment %} Review stars {% endcomment %}
+          {% if section.settings.enable_shopify_product_badges and settings.enable_shopify_review_comments %}
+            <div class="spr-badge-container">
+              <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+            </div>
+          {% endif %}
 
           {% for tag in product.tags %}
             {% if tag contains 'meta-size-chart-' %}
@@ -165,6 +158,14 @@
                   </span>
                 {% endif %}
               </span>
+
+              {% comment %} Sale sticker {% endcomment %}
+              {% if settings.stickers_enabled %}
+                {% render 'product-thumbnail__sticker',
+                        context: 'product',
+                        collection_handles: collection_handles
+                %}
+              {% endif %}
 
               {% comment %} Size chart {% endcomment %}
               {% if settings.size_chart != blank or meta-size-chart %}
@@ -273,6 +274,16 @@
       </div>
     {% endif %}
   </div>
+
+  {% comment %} Description - below image {% endcomment %}
+  {% if section.settings.product_description_position == "below-image" %}
+    {% if product.description != blank %}
+      <div class="description content bottom has-padding-top">
+        {{ product.description | split: '<!-- split -->' | first }}
+      </div>
+    {% endif %}
+  {% endif %}
+
 </section>
 
 {% comment %} JavaScript {% endcomment %}
@@ -561,6 +572,10 @@
         {
           "value": "bottom",
           "label": "Below 'add to cart'"
+        },
+        {
+          "value": "below-image",
+          "label": "Below image"
         }
       ],
       "default": "top"

@@ -26,7 +26,7 @@
       "signup_form_success": "We will send you an email right before we open!",
       "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
       "password_link": "Enter using password",
-      "powered_by_shopify_html": "This shop will be powered by <a href=\"https:\/\/www.shopify.com\/?ref=out-of-the-sandbox\" target=\"_blank\">Shopify<\/a>"
+      "powered_by_shopify_html": " "
     },
     "meta": {
       "tagged_html": "Tagged \"{{ tags }}\"",
@@ -182,7 +182,7 @@
       "sold_out": "Sold Out",
       "unavailable": "Unavailable",
       "quantity": "Qty",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to Basket",
       "add_to_cart_success": "Added",
       "vendor": "Vendor",
       "related_items": "Related Items",
@@ -455,6 +455,11 @@
         "one": "{{ count }} item",
         "other": "{{ count }} items"
       }
+    }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }

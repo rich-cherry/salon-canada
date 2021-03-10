@@ -45,15 +45,15 @@
     "button_link_underline_style": "solid",
     "button_link_underline_thickness": 1,
     "button_cart_padding": "regular",
-    "button_cart_bg_color": "#000000",
-    "button_cart_bg_color--highlight": "#606060",
+    "button_cart_bg_color": "#cf111f",
+    "button_cart_bg_color--highlight": "#e2000f",
     "button_cart_border_color": "rgba(0,0,0,0)",
     "button_cart_border_color--highlight": "rgba(0,0,0,0)",
     "button_cart_text_color": "#fff",
     "button_cart_text_color--highlight": "#fff",
     "button_cart_icon": "",
     "button_cart_icon_position": "left",
-    "button_cart_border_radius": 2,
+    "button_cart_border_radius": 35,
     "icon": "icon_outline",
     "toggle_icon_style": "plus_and_minus",
     "social_media_share_style": "squared",
@@ -73,7 +73,7 @@
     "tab_style": "regular",
     "table_styles_enabled": true,
     "qty_box_style": "box",
-    "qty_border_radius": 0,
+    "qty_border_radius": 25,
     "tag_style": "solid",
     "mega_menu_1": true,
     "mega_menu_2": true,
@@ -104,12 +104,12 @@
     "dropdown_background_opacity": 100,
     "dropdown_link_color": "#222222",
     "dropdown_link_hover_color": "#85af92",
-    "footer_background": "#ffffff",
-    "footer_border": "#a32668",
-    "footer_link_color": "#a32668",
-    "footer_link_hover_color": "#bac0e6",
-    "footer_text_color": "#000000",
-    "sale_color": "#ae3333",
+    "footer_background": "#000000",
+    "footer_border": "#000000",
+    "footer_link_color": "#ffffff",
+    "footer_link_hover_color": "#ffffff",
+    "footer_text_color": "#ffffff",
+    "sale_color": "#000000",
     "was_price_color": "#b3b3b3",
     "product_hover_text_color": "#85af92",
     "product_hover_bg_color": "#ffffff",
@@ -167,8 +167,8 @@
     "enable_autocomplete": true,
     "search_to_display": 5,
     "show_secondary_image": true,
-    "display_vendor": false,
-    "thumbnail_hover_enabled": true,
+    "display_vendor": true,
+    "thumbnail_hover_enabled": false,
     "thumbnail_text_alignment": "center",
     "stickers_enabled": true,
     "sticker_shape": "square",
@@ -177,13 +177,13 @@
     "collection_swatches_shape": "square",
     "enable_shopify_review_comments": true,
     "enable_shopify_collection_badges": false,
-    "display_product_quantity": true,
+    "display_product_quantity": false,
     "limit_quantity": true,
     "display_inventory_left": true,
     "inventory_threshold": 10,
     "free_price_text": "Free",
-    "product_form_style": "dropdown",
-    "swatch_style": "square",
+    "product_form_style": "swatches",
+    "swatch_style": "rounded",
     "notify_me_form": true,
     "notify_me_description": "<p>Notify me when this product is available:<\/p>",
     "size_chart": "",
@@ -352,7 +352,6 @@
         "type": "collection__banner",
         "settings": {
           "show_banner": false,
-          "image": "",
           "image_darken": false,
           "subtitle": "Subheading",
           "width": "wide",
@@ -370,16 +369,15 @@
           "collection_tags": true,
           "collection_sort": true,
           "show_promo_banner": false,
-          "image": "",
           "image_darken": false,
           "promo_title": "Special sale on now!",
           "promo_text": "<p>Description of promotion with lots of details.<\/p>",
           "banner_height": "medium",
-          "align_height": false,
+          "align_height": true,
           "collection_height": 200,
-          "products_per_row": 3,
+          "products_per_row": 4,
           "mobile_products_per_row": "2",
-          "pagination_limit": 21,
+          "pagination_limit": 50,
           "pagination_type": "infinite_scroll",
           "width": "standard",
           "padding_top": 40,
@@ -657,13 +655,13 @@
         ],
         "settings": {
           "copyright_text": "",
-          "display_designed_by": true,
-          "display_shopify": true,
+          "display_designed_by": false,
+          "display_shopify": false,
           "display_payment_methods": true,
           "show_locale_selector": true,
           "show_currency_selector": true,
           "css_class": "",
-          "custom_css": ""
+          "custom_css": ".footer__container, .footer__container a, .footer__extra-content.section, .footer__credits {\n  background: #000000;\ncolor: white;\n}"
         }
       },
       "footer__icon-bar": {
@@ -705,17 +703,17 @@
           "footer__icon-bar-3"
         ],
         "settings": {
-          "show_icon_bar": false,
-          "alignment": "center",
+          "show_icon_bar": true,
+          "alignment": "start",
           "icon_position": "row",
           "size": "medium",
-          "background": "#8b8b8b",
+          "background": "#000000",
           "link_color": "#ffffff",
           "link_hover_color": "#000000",
           "text_color": "#ffffff",
           "width": "standard",
-          "css_class": "",
-          "custom_css": ""
+          "css_class": "rc-icon-bar",
+          "custom_css": ".rc-icon-bar {\n  border-bottom: 1px solid rgb(102, 102, 102);\n}"
         }
       },
       "header-classic": {
@@ -928,39 +926,19 @@
               "animation": "none"
             }
           },
-          "1557842474414": {
-            "type": "rich_text",
+          "6859de9e-4956-44aa-a341-959d84ba84da": {
+            "type": "recommended_products",
             "settings": {
-              "title": "How We Give Back",
-              "heading_font": "open_sans_n4",
-              "heading_color": "rgba(0,0,0,0)",
-              "heading_alignment": "center",
-              "heading_size": 30,
-              "text": "<p>We believe in giving back; We are proud to give 1% of all orders directly to environmental not for profit groups whose focus is the protection, preservation and restoration of our planet. This means every time you purchase from us, 1% goes directly to an environmental cause.<\/p>",
-              "text_font": "open_sans_n4",
-              "text_color": "rgba(0,0,0,0)",
-              "text_alignment": "center",
-              "text_size": 14,
-              "columns": 1,
-              "button_label": "Read more",
-              "button_link": "shopify:\/\/pages\/our-story",
-              "button_alignment": "center",
-              "button_style": "button--1",
-              "background": "#eeeeee",
-              "gradient": "rgba(0,0,0,0)",
-              "gradient_rotation": 0,
-              "width": "standard",
-              "padding_top": 0,
-              "padding_bottom": 0,
-              "padding_left": 0,
-              "padding_right": 0,
+              "width": "wide",
+              "padding_top": 20,
+              "padding_bottom": 20,
               "animation": "none"
             }
           }
         },
         "block_order": [
           "1557842500495",
-          "1557842474414"
+          "6859de9e-4956-44aa-a341-959d84ba84da"
         ],
         "settings": {
           "product_breadcrumb": false,
@@ -970,18 +948,18 @@
           "enable_product_lightbox": true,
           "slideshow_speed": 3,
           "slideshow_transition": "slide",
-          "thumbnail_position": "bottom-thumbnails",
+          "thumbnail_position": "left-thumbnails",
           "enable_thumbnail_slider": true,
-          "display_vendor": false,
+          "display_vendor": true,
           "display_sku": false,
-          "enable_shopify_product_badges": false,
+          "enable_shopify_product_badges": true,
           "display_savings": true,
           "display_collections": false,
           "display_type": false,
           "display_tags": false,
           "display_social_buttons": true,
-          "product_description_position": "top",
-          "show_payment_button": true,
+          "product_description_position": "bottom",
+          "show_payment_button": false,
           "product_images_position": "left",
           "set_product_height": false,
           "product_height": 500,
@@ -991,7 +969,7 @@
           "padding_bottom": 20,
           "animation": "none",
           "css_class": "",
-          "custom_css": ""
+          "custom_css": ".vendor a {\n  font-weight: bold;\n}\n.product_name.title {\n  font-size: 16px;\n}"
         }
       },
       "ec01fd2dafe8": {
@@ -1692,12 +1670,20 @@
         "type": "product__recommendations",
         "settings": {
           "show_product_recommendations": true,
-          "product_recommendations_style": "grid",
+          "product_recommendations_style": "slider",
           "product_recommendations_heading": "You may also like",
           "products_per": 3,
           "recommended_products_limit": 4,
           "align_height": false,
-          "collection_height": 200
+          "collection_height": 200,
+          "width": "wide",
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
         }
       },
       "blog__banner": {
@@ -2746,6 +2732,74 @@
           "bottom_banner_text": "#efefef",
           "css_class": "",
           "custom_css": ""
+        }
+      },
+      "page__brands": {
+        "type": "page__brands",
+        "blocks": {
+          "55cfc5c2-c904-4abd-be36-af56aa503cd2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/avanti.jpg",
+              "link": "\/collections\/vendors?q=avanti"
+            }
+          },
+          "db2dc045-04c6-48de-861a-b3b4cfc79b2f": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brazilian-blowout.png",
+              "link": "\/collections\/vendors?q=brazilian%20blowout"
+            }
+          },
+          "4cd0e520-b19f-4662-9807-4ab17c05fa69": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/clairol-pro.jpg",
+              "link": "\/collections\/vendors?q=clairol"
+            }
+          },
+          "6fe3b49a-8c03-417d-8c89-226fa747d47f": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lanza_207ec435-7a8f-4d1a-ab10-86831d06c995.png",
+              "link": "\/collections\/vendors?q=lanza%20professional"
+            }
+          },
+          "b5d53843-7a78-4773-a29f-0eb41455b13d": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/moroccanoil.png",
+              "link": "\/collections\/vendors?q=moroccanoil"
+            }
+          },
+          "8fe873a1-c123-4763-9665-6e6b5860266f": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/nioxin.png",
+              "link": "\/collections\/vendors?q=nioxin"
+            }
+          },
+          "a53a7476-4624-458b-b9db-5b69552db207": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Revlon_logo.png",
+              "link": "\/collections\/vendors?q=revlon"
+            }
+          }
+        },
+        "block_order": [
+          "55cfc5c2-c904-4abd-be36-af56aa503cd2",
+          "db2dc045-04c6-48de-861a-b3b4cfc79b2f",
+          "4cd0e520-b19f-4662-9807-4ab17c05fa69",
+          "6fe3b49a-8c03-417d-8c89-226fa747d47f",
+          "b5d53843-7a78-4773-a29f-0eb41455b13d",
+          "8fe873a1-c123-4763-9665-6e6b5860266f",
+          "a53a7476-4624-458b-b9db-5b69552db207"
+        ],
+        "settings": {
+          "title": "Featured Brands",
+          "header_font": "Georgia, serif",
+          "logo_width": "100px"
         }
       }
     },
