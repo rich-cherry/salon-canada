@@ -278,9 +278,17 @@
   {% comment %} Description - below image {% endcomment %}
   {% if section.settings.product_description_position == "below-image" %}
     {% if product.description != blank %}
-      <div class="description content bottom has-padding-top">
-        {{ product.description | split: '<!-- split -->' | first }}
+      <div class="description-container">
+        <hr>
+        <div class="description-heading">
+          <h3><strong>{{ 'products.product.description_heading' | t }}</strong></h3>
+          <p>Item {{  variant.sku }}</p>
+        </div>
+        <div class="description content bottom has-padding-top">
+          {{ product.description | split: '<!-- split -->' | first }}
+        </div>
       </div>
+
     {% endif %}
   {% endif %}
 

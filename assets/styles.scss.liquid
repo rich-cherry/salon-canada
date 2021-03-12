@@ -21429,3 +21429,16 @@ section {
 [class*=" spr-icon-"]:before {
   font-size: 100% !important;
 }
+
+.description-container {
+  display: grid;
+  grid-template-columns: 12% 1fr;
+}
+
+.description-heading {
+  grid-column: 1 / span 1;
+}
+
+.description-container .description {
+  grid-column: 2 / span 1;
+}

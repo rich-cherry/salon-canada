@@ -196,6 +196,7 @@
         "one": "item left",
         "other": "items left"
       },
+      "description_heading": "About the Product",
       "view_in_your_space": "View in your space"
     },
     "notify_form": {
