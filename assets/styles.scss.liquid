@@ -15929,8 +15929,30 @@ $subtotal-bg-color: #F2F2F2;
 
 // Mobile slider navbar
 #rc-mobile-navbar {
-  // display: none;
-  padding: 1rem;
-  border: 1px solid #222;
-  margin: 1rem;
+  margin: 0.5rem 0;
+  display: flex;
+  overflow-x:auto;
+  display: none;
+}
+
+@media (max-width: 798px){
+  #rc-mobile-navbar {
+    display: block;
+    margin: 0.5rem 0;
+    display: flex;
+    overflow-x: auto;
+  }
+}
+
+#rc-mobile-navbar>* {
+  padding: 0.5rem 1rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin: 0 0.25rem;
+}
+
+// Hide hamburger
+.mobile-menu__toggle-icon svg {
+  display: none;
 }
