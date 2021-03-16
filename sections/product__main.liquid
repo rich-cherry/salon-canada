@@ -137,6 +137,8 @@
               {% comment %} Sold out {% endcomment %}
               <span class="sold_out">{% if variant.available == false %}{{ 'products.product.sold_out' | t }}{% endif %}</span>
 
+
+            <div id="rc-product-price">
               {% comment %} Current price {% endcomment %}
               <span class="{% if variant.compare_at_price > variant.price %}sale{% endif %}">
                 <span class="current_price {% if product.available == false %}hidden{% endif %}">
@@ -166,6 +168,9 @@
                         collection_handles: collection_handles
                 %}
               {% endif %}
+            </div>
+
+
 
               {% comment %} Size chart {% endcomment %}
               {% if settings.size_chart != blank or meta-size-chart %}
@@ -279,10 +284,8 @@
   {% if section.settings.product_description_position == "below-image" %}
     {% if product.description != blank %}
       <div class="description-container">
-        <hr>
         <div class="description-heading">
           <h3><strong>{{ 'products.product.description_heading' | t }}</strong></h3>
-          <p>Item {{  variant.sku }}</p>
         </div>
         <div class="description content bottom has-padding-top">
           {{ product.description | split: '<!-- split -->' | first }}
@@ -3274,3 +3277,28 @@
 }
 
 {% endschema %}
+
+{%- if template == 'product' -%}
+<script>
+
+// Add color name to swatch heading on product page
+window.onload = function(){
+  const selectedVariantName = '{{ product.selected_or_first_available_variant.title }}';
+  const swatchElement = document.querySelector('.collection_swatches');
+  swatchElement.querySelector('.option-title.label').innerHTML += `: ${selectedVariantName}`;
+}
+
+// Change color name on swatch click
+document.querySelectorAll(".swatch-element.color").forEach(swatch => {
+  swatch.addEventListener("click", function(event){
+    const swatchElement = document.querySelector('.collection_swatches');
+    const optionHeading = swatchElement.querySelector('.option-title.label');
+    if(optionHeading.innerHTML.includes("Color")){
+      optionHeading.innerHTML = "Color";
+      optionHeading.innerHTML += `: ${event.currentTarget.getAttribute('aria-label')}`;
+    }
+  })
+})
+
+</script>
+{%- endif -%}

@@ -120,7 +120,7 @@
         {%- endif -%}"
       data-shop-url="{{ shop.url }}"
       data-current-lang="{{ request.locale.iso_code }}">
-  
+
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVQBBZ4"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -181,6 +181,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {% if settings.header_layout == "vertical" %}
     <div class="is-beside-vertical-header">
   {% endif %}
+
+  <div id="rc-mobile-navbar">
+    {%- render 'rc-mobile-navbar' -%}
+  </div>
 
   {{ content_for_layout }}
 
