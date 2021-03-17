@@ -15957,6 +15957,41 @@ $subtotal-bg-color: #F2F2F2;
   display: none;
 }
 
+// SVG icons
 .ss-icon {
   font-size: 20px;
+}
+
+// Mobile Footer Navbar
+.footer-navbar {
+  background-color: #FFF;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Style the links inside the navigation bar */
+.footer-navbar a {
+  float: left;
+  display: block;
+  color: #222;
+  text-align: center;
+  // padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%;
+}
+
+/* Change the color of links on hover */
+.footer-navbar a:hover {
+  background-color: #222;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.footer-navbar a.active {
+  background-color: #4CAF50;
+  color: white;
 }

@@ -83,6 +83,8 @@
 
   {{ content_for_header }}
 
+  {% render 'rc-mobile-footer-nav' %}
+
   {% render 'social-meta-info' %}
   {% if collection.previous_product %}<link rel="prev" href="{{ collection.previous_product }}">{% endif %}
   {% if collection.next_product %}<link rel="next" href="{{ collection.next_product }}">{% endif %}
